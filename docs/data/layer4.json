@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-04T21:15:59.294511+00:00",
+ "generated_at": "2026-10-05T05:25:47.367637+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,16 +10,17 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-04T21:15:42+00:00",
-  "cycles": 11,
+  "last_cycle": "2026-10-05T05:25:16+00:00",
+  "cycles": 12,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
-   "2026-10-04": 3
+   "2026-10-04": 3,
+   "2026-10-05": 1
   },
-  "cycles_30d": 11,
+  "cycles_30d": 12,
   "max_gap_hours_30d": 9.0,
-  "distinct_snapshots": 5,
+  "distinct_snapshots": 6,
   "failures": [],
   "failures_by_category": {},
   "unread_last_cycle": []
@@ -28,15 +29,57 @@
   "datasets": 72,
   "resources": 631,
   "organizations": 1,
-  "prov_events": 14,
-  "prov_records": 14,
+  "prov_events": 17,
+  "prov_records": 17,
   "critical": 0,
-  "datasets_changed": 9,
+  "datasets_changed": 10,
   "by_type": {
-   "CONTENT_MOD": 14
+   "CONTENT_MOD": 17
   }
  },
  "events": [
+  {
+   "when": "2026-10-05T05:25:16+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File date updated; license title changed",
+   "summary_pt": "Data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
+  {
+   "when": "2026-10-05T05:25:16+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "d5f0712e-62f6-4736-8dff-9991f10758a7",
+   "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
+   "title": "Indicadores Coletivos de Continuidade (DEC e FEC)",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "d5f0712e-62f6-4736-8dff-9991f10758a7.jsonld"
+  },
+  {
+   "when": "2026-10-05T05:25:16+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld"
+  },
   {
    "when": "2026-10-04T12:14:19+00:00",
    "type": "CONTENT_MOD",
@@ -236,6 +279,45 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-05T04:17:38.472780",
+   "prov_records": 3,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 3,
+   "last_change": "2026-10-05T05:25:16+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "d5f0712e-62f6-4736-8dff-9991f10758a7",
+   "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
+   "title": "Indicadores Coletivos de Continuidade (DEC e FEC)",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 17,
+   "metadata_modified": "2026-10-05T05:24:28.800514",
+   "prov_records": 1,
+   "prov_log": "d5f0712e-62f6-4736-8dff-9991f10758a7.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-05T05:25:16+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 31,
+   "metadata_modified": "2026-10-05T05:23:36.845328",
+   "prov_records": 2,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
+   "changes": 2,
+   "last_change": "2026-10-05T05:25:16+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -285,32 +367,6 @@
    "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
    "changes": 2,
    "last_change": "2026-10-04T12:14:19+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-04T04:22:31.104631",
-   "prov_records": 2,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 2,
-   "last_change": "2026-10-04T05:41:01+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-   "name": "componentes-tarifarias",
-   "title": "Componentes Tarifárias",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 31,
-   "metadata_modified": "2026-10-04T05:36:50.878564",
-   "prov_records": 1,
-   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
-   "changes": 1,
-   "last_change": "2026-10-04T05:41:01+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -762,19 +818,6 @@
    "organization": "Agência Nacional de Energia Elétrica",
    "resources": 3,
    "metadata_modified": "2026-05-27T15:58:14.657924",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "d5f0712e-62f6-4736-8dff-9991f10758a7",
-   "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
-   "title": "Indicadores Coletivos de Continuidade (DEC e FEC)",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 17,
-   "metadata_modified": "2026-09-05T05:31:55.197709",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
