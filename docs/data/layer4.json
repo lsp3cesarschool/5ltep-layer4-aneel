@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-06T13:14:36.331576+00:00",
+ "generated_at": "2026-10-06T22:36:31.869799+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,18 +10,18 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-06T06:09:26+00:00",
-  "cycles": 15,
+  "last_cycle": "2026-10-06T22:36:13+00:00",
+  "cycles": 16,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
    "2026-10-04": 3,
    "2026-10-05": 3,
-   "2026-10-06": 1
+   "2026-10-06": 2
   },
-  "cycles_30d": 15,
-  "max_gap_hours_30d": 9.6,
-  "distinct_snapshots": 8,
+  "cycles_30d": 16,
+  "max_gap_hours_30d": 16.4,
+  "distinct_snapshots": 9,
   "failures": [
    {
     "run_id": 37469187217,
@@ -41,15 +41,99 @@
   "datasets": 72,
   "resources": 631,
   "organizations": 1,
-  "prov_events": 31,
-  "prov_records": 31,
+  "prov_events": 37,
+  "prov_records": 37,
   "critical": 0,
-  "datasets_changed": 17,
+  "datasets_changed": 19,
   "by_type": {
-   "CONTENT_MOD": 31
+   "CONTENT_MOD": 37
   }
  },
  "events": [
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld"
+  },
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
+   "name": "tfsee",
+   "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld"
+  },
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld"
+  },
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
+   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld"
+  },
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
+   "name": "ouvidoria-setorial-aneel",
+   "title": "Ouvidoria Setorial ANEEL",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld"
+  },
+  {
+   "when": "2026-10-06T22:36:13+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
+   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "title": "Liberação para operação comercial de empreendimentos de geração",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld"
+  },
   {
    "when": "2026-10-06T06:09:26+00:00",
    "type": "CONTENT_MOD",
@@ -487,6 +571,84 @@
  ],
  "datasets": [
   {
+   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 3,
+   "metadata_modified": "2026-10-06T10:03:23.312664",
+   "prov_records": 4,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
+   "name": "tfsee",
+   "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 2,
+   "metadata_modified": "2026-10-06T09:00:38.733730",
+   "prov_records": 4,
+   "prov_log": "738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-06T10:41:40.457372",
+   "prov_records": 3,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
+   "changes": 3,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
+   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 12,
+   "metadata_modified": "2026-10-06T16:59:55.337761",
+   "prov_records": 1,
+   "prov_log": "57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
+   "name": "ouvidoria-setorial-aneel",
+   "title": "Ouvidoria Setorial ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 19,
+   "metadata_modified": "2026-10-06T10:02:44.636526",
+   "prov_records": 4,
+   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
+   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "title": "Liberação para operação comercial de empreendimentos de geração",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 6,
+   "metadata_modified": "2026-10-06T15:52:59.587337",
+   "prov_records": 1,
+   "prov_log": "2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-06T22:36:13+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
    "name": "sigec-sistema-de-gestao-de-creditos",
    "title": "SIGEC - Sistema de Gestão de Créditos",
@@ -552,32 +714,6 @@
    "last_type": "CONTENT_MOD"
   },
   {
-   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
-   "name": "tarifas-distribuidoras-energia-eletrica",
-   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 3,
-   "metadata_modified": "2026-10-05T10:02:56.067877",
-   "prov_records": 3,
-   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
-   "changes": 3,
-   "last_change": "2026-10-05T14:25:06+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
-   "name": "tfsee",
-   "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 2,
-   "metadata_modified": "2026-10-05T09:01:45.754873",
-   "prov_records": 3,
-   "prov_log": "738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld",
-   "changes": 3,
-   "last_change": "2026-10-05T14:25:06+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
    "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
    "name": "sistema-de-gestao-da-transmissao-siget",
    "title": "Sistema de Gestão da Transmissão - SIGET",
@@ -586,32 +722,6 @@
    "metadata_modified": "2026-10-05T10:48:10.578424",
    "prov_records": 3,
    "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
-   "changes": 3,
-   "last_change": "2026-10-05T14:25:06+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
-   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-05T10:40:49.831545",
-   "prov_records": 2,
-   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
-   "changes": 2,
-   "last_change": "2026-10-05T14:25:06+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
-   "name": "ouvidoria-setorial-aneel",
-   "title": "Ouvidoria Setorial ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 19,
-   "metadata_modified": "2026-10-05T10:04:25.228863",
-   "prov_records": 3,
-   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
    "changes": 3,
    "last_change": "2026-10-05T14:25:06+00:00",
    "last_type": "CONTENT_MOD"
@@ -838,19 +948,6 @@
    "last_type": null
   },
   {
-   "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
-   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
-   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 12,
-   "metadata_modified": "2026-09-18T21:17:26.195539",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
    "id": "4cc8f5c8-4d94-41b2-bf7e-482ae787be6d",
    "name": "usinas-termeletricas-por-tipo",
    "title": "Quantidade de usinas termelétricas por tipo",
@@ -1000,19 +1097,6 @@
    "organization": "Agência Nacional de Energia Elétrica",
    "resources": 21,
    "metadata_modified": "2026-09-10T04:13:46.605334",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
-   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
-   "title": "Liberação para operação comercial de empreendimentos de geração",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 6,
-   "metadata_modified": "2026-09-18T20:07:23.328613",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
