@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-06T22:36:31.869799+00:00",
+ "generated_at": "2026-10-07T05:44:44.089760+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,18 +10,19 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-06T22:36:13+00:00",
-  "cycles": 16,
+  "last_cycle": "2026-10-07T05:44:28+00:00",
+  "cycles": 17,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
    "2026-10-04": 3,
    "2026-10-05": 3,
-   "2026-10-06": 2
+   "2026-10-06": 2,
+   "2026-10-07": 1
   },
-  "cycles_30d": 16,
+  "cycles_30d": 17,
   "max_gap_hours_30d": 16.4,
-  "distinct_snapshots": 9,
+  "distinct_snapshots": 10,
   "failures": [
    {
     "run_id": 37469187217,
@@ -41,15 +42,43 @@
   "datasets": 72,
   "resources": 631,
   "organizations": 1,
-  "prov_events": 37,
-  "prov_records": 37,
+  "prov_events": 39,
+  "prov_records": 39,
   "critical": 0,
   "datasets_changed": 19,
   "by_type": {
-   "CONTENT_MOD": 37
+   "CONTENT_MOD": 39
   }
  },
  "events": [
+  {
+   "when": "2026-10-07T05:44:28+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld"
+  },
+  {
+   "when": "2026-10-07T05:44:28+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-06T22:36:13+00:00",
    "type": "CONTENT_MOD",
@@ -571,6 +600,32 @@
  ],
  "datasets": [
   {
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 34,
+   "metadata_modified": "2026-10-07T05:39:59.793823",
+   "prov_records": 4,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-07T05:44:28+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-07T04:21:34.700507",
+   "prov_records": 5,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 5,
+   "last_change": "2026-10-07T05:44:28+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -649,19 +704,6 @@
    "last_type": "CONTENT_MOD"
   },
   {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-06T04:19:25.095989",
-   "prov_records": 4,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 4,
-   "last_change": "2026-10-06T06:09:26+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
    "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
    "name": "componentes-tarifarias",
    "title": "Componentes Tarifárias",
@@ -710,19 +752,6 @@
    "prov_records": 1,
    "prov_log": "e8d03b9e-3717-46dc-b0c4-c33d3bf80b10.jsonld",
    "changes": 1,
-   "last_change": "2026-10-05T14:25:06+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
-   "name": "sistema-de-gestao-da-transmissao-siget",
-   "title": "Sistema de Gestão da Transmissão - SIGET",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 34,
-   "metadata_modified": "2026-10-05T10:48:10.578424",
-   "prov_records": 3,
-   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
-   "changes": 3,
    "last_change": "2026-10-05T14:25:06+00:00",
    "last_type": "CONTENT_MOD"
   },
