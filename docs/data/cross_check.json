@@ -1,11 +1,11 @@
 {
  "status": "PENDING",
- "checked_at": "2026-10-08T10:48:46.783651+00:00",
- "duration_seconds": 32.82,
+ "checked_at": "2026-10-09T10:47:28.276082+00:00",
+ "duration_seconds": 34.46,
  "portal_url": "https://dadosabertos.aneel.gov.br",
- "snapshot_run_id": "20261008T055126Z",
- "snapshot_file": "snapshot_20261008T055126Z.json",
- "snapshot_age_hours": 4.96,
+ "snapshot_run_id": "20261009T055655Z",
+ "snapshot_file": "snapshot_20261009T055655Z.json",
+ "snapshot_age_hours": 4.84,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -20,53 +20,37 @@
   {
    "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
    "name": "ouvidoria-setorial-aneel",
-   "snapshot_metadata_modified": "2026-10-07T10:03:32.872132",
-   "live_metadata_modified": "2026-10-08T10:03:07.522188",
+   "snapshot_metadata_modified": "2026-10-08T10:03:07.522188",
+   "live_metadata_modified": "2026-10-09T10:03:19.127647",
    "snapshot_num_resources": 19,
    "live_num_resources": 19
   },
   {
-   "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
-   "name": "relacao-de-empreendimentos-de-geracao-distribuida",
-   "snapshot_metadata_modified": "2026-10-08T05:42:35.003447",
-   "live_metadata_modified": "2026-10-08T06:31:41.813019",
-   "snapshot_num_resources": 12,
-   "live_num_resources": 12
-  },
-  {
    "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
    "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "snapshot_metadata_modified": "2026-10-07T10:40:43.106969",
-   "live_metadata_modified": "2026-10-08T10:40:37.624196",
+   "snapshot_metadata_modified": "2026-10-08T10:40:37.624196",
+   "live_metadata_modified": "2026-10-09T10:40:35.265307",
    "snapshot_num_resources": 5,
    "live_num_resources": 5
   },
   {
-   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
-   "name": "sistema-de-gestao-da-transmissao-siget",
-   "snapshot_metadata_modified": "2026-10-08T05:36:41.254090",
-   "live_metadata_modified": "2026-10-08T10:48:32.174708",
-   "snapshot_num_resources": 34,
-   "live_num_resources": 34
-  },
-  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
-   "snapshot_metadata_modified": "2026-10-07T10:03:04.132490",
-   "live_metadata_modified": "2026-10-08T10:03:46.436894",
+   "snapshot_metadata_modified": "2026-10-08T10:03:46.436894",
+   "live_metadata_modified": "2026-10-09T10:02:50.128242",
    "snapshot_num_resources": 3,
    "live_num_resources": 3
   },
   {
    "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
    "name": "tfsee",
-   "snapshot_metadata_modified": "2026-10-07T09:01:56.617827",
-   "live_metadata_modified": "2026-10-08T09:01:54.010628",
+   "snapshot_metadata_modified": "2026-10-08T09:01:54.010628",
+   "live_metadata_modified": "2026-10-09T09:01:53.422432",
    "snapshot_num_resources": 2,
    "live_num_resources": 2
   }
  ],
  "errors": [],
- "sentence": "⏳ **Cross-check pending** — last verified 2026-10-08 10:48 UTC. 6 divergence(s) detected; next monitor run will reconcile (snapshot age 5.0h ≤ 7h tolerance).",
- "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-08 10:48 UTC. 6 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 5,0 h ≤ tolerância de 7 h)."
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-10-09 10:47 UTC. 4 divergence(s) detected; next monitor run will reconcile (snapshot age 4.8h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-09 10:47 UTC. 4 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,8 h ≤ tolerância de 7 h)."
 }
