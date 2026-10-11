@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-10T21:33:20.506765+00:00",
+ "generated_at": "2026-10-11T05:35:19.980878+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-10T21:32:56+00:00",
-  "cycles": 28,
+  "last_cycle": "2026-10-11T05:34:57+00:00",
+  "cycles": 29,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -21,11 +21,12 @@
    "2026-10-07": 3,
    "2026-10-08": 3,
    "2026-10-09": 3,
-   "2026-10-10": 3
+   "2026-10-10": 3,
+   "2026-10-11": 1
   },
-  "cycles_30d": 28,
+  "cycles_30d": 29,
   "max_gap_hours_30d": 16.4,
-  "distinct_snapshots": 17,
+  "distinct_snapshots": 18,
   "failures": [
    {
     "run_id": 37469187217,
@@ -45,15 +46,29 @@
   "datasets": 72,
   "resources": 631,
   "organizations": 1,
-  "prov_events": 71,
-  "prov_records": 71,
+  "prov_events": 72,
+  "prov_records": 72,
   "critical": 0,
   "datasets_changed": 20,
   "by_type": {
-   "CONTENT_MOD": 71
+   "CONTENT_MOD": 72
   }
  },
  "events": [
+  {
+   "when": "2026-10-11T05:34:57+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-10T12:21:38+00:00",
    "type": "CONTENT_MOD",
@@ -1051,6 +1066,19 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-11T05:31:26.530199",
+   "prov_records": 9,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 9,
+   "last_change": "2026-10-11T05:34:57+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -1126,19 +1154,6 @@
    "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
    "changes": 8,
    "last_change": "2026-10-10T12:21:38+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-10T05:32:18.554245",
-   "prov_records": 8,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 8,
-   "last_change": "2026-10-10T05:39:46+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
