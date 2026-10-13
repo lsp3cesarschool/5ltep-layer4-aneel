@@ -1,12 +1,11 @@
-# 5LTEP-L4 · ANEEL instance (control experiment)
+# 5LTEP-L4 · ANEEL instance (application in another context)
 
 [![Tests](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/tests.yml/badge.svg)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/tests.yml) [![Layer 4](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus.json)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/monitor.yml) [![Cross-check](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus-cross-check.json)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/cross_check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **English** · [Português](LEIAME.md)
 
 **5L-TEP Layer 4 (observability and provenance) applied to the open data portal of ANEEL, Brazil's electricity regulator:
-another instance of [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4), set up by the author as a control case for the IBAMA
-study.**
+another instance of [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4), set up by the author as an application of the same system in another context.**
 
 | Resource | What you find there |
 |---|---|
@@ -14,7 +13,7 @@ study.**
 | 📄 **Change log** | [`changes.md`](changes.md): every detected change in plain words, rebuilt each cycle |
 | 🔗 **Provenance records** | [`provenance_logs/`](provenance_logs/): one append-only W3C PROV-DM (JSON-LD) chain per dataset |
 | 🏛️ **Main instance** | [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4): IBAMA, and the full documentation |
-| 🔁 **Other control** | [5ltep-layer4-recife](https://github.com/lsp3cesarschool/5ltep-layer4-recife): the Recife portal |
+| 🔁 **Another application** | [5ltep-layer4-recife](https://github.com/lsp3cesarschool/5ltep-layer4-recife): the Recife portal |
 
 > **Status: research demonstration.** This repository is not operated by, affiliated with or endorsed by ANEEL; it only reads ANEEL's open data. It shows that the toolkit can be reused on
 > another portal, and it does not assume that the publisher will review its results or adopt it.
@@ -30,7 +29,9 @@ the comparison silently mixes two versions. This instance reads the metadata of 
 dataset every six hours and records each change as a W3C PROV-DM entity linked to the version
 before it, so the analyst can see when a dataset changed, how, and whether the change was dated.
 
-## Why a control experiment
+## Why apply the system in another context
+
+This instance demonstrates reuse of the same system in another context and helps assess the limits of that transfer.
 
 The Layer 4 toolkit was built and evaluated on IBAMA's portal. ANEEL is a federal regulator, in another sector
 (about 70 datasets; a cycle takes well under a minute). This repository runs **the same code**, following the steps of *Monitoring another
@@ -46,8 +47,8 @@ the state every later cycle is compared with.
 | `portal.json` | `portal_url` = `https://dadosabertos.aneel.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | this text and the citation of this repository |
 
-Everything else is the code of `5ltep-layer4` at commit `a011ec3`
-([a011ec3bf9ec7db0f51e526bb4343efa72be2555](https://github.com/lsp3cesarschool/5ltep-layer4/commit/a011ec3bf9ec7db0f51e526bb4343efa72be2555)). The snapshots, provenance records,
+Everything else is the code of `5ltep-layer4` at commit `a081c64`
+([a081c643b2afef811269697bc5fff6d208e1707a](https://github.com/lsp3cesarschool/5ltep-layer4/commit/a081c643b2afef811269697bc5fff6d208e1707a)). The snapshots, provenance records,
 change log and dashboard data are written here by the workflows.
 
 ## Running it, and adapting it again
