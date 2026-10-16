@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-15T21:16:42.094321+00:00",
+ "generated_at": "2026-10-16T04:20:22.680108+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-15T21:16:23+00:00",
-  "cycles": 43,
+  "last_cycle": "2026-10-16T04:19:59+00:00",
+  "cycles": 44,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -26,11 +26,12 @@
    "2026-10-12": 1,
    "2026-10-13": 3,
    "2026-10-14": 4,
-   "2026-10-15": 4
+   "2026-10-15": 4,
+   "2026-10-16": 1
   },
-  "cycles_30d": 43,
+  "cycles_30d": 44,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 26,
+  "distinct_snapshots": 27,
   "failures": [
    {
     "run_id": 38268425610,
@@ -58,15 +59,43 @@
   "datasets": 72,
   "resources": 631,
   "organizations": 1,
-  "prov_events": 106,
-  "prov_records": 106,
+  "prov_events": 108,
+  "prov_records": 108,
   "critical": 0,
   "datasets_changed": 22,
   "by_type": {
-   "CONTENT_MOD": 106
+   "CONTENT_MOD": 108
   }
  },
  "events": [
+  {
+   "when": "2026-10-16T04:19:59+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
+  {
+   "when": "2026-10-16T04:19:59+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "a9fb5b4b-59ca-4be8-9690-876d9547271d",
+   "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
+   "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "a9fb5b4b-59ca-4be8-9690-876d9547271d.jsonld"
+  },
   {
    "when": "2026-10-15T11:18:47+00:00",
    "type": "CONTENT_MOD",
@@ -1554,6 +1583,32 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-16T04:16:54.225861",
+   "prov_records": 14,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 14,
+   "last_change": "2026-10-16T04:19:59+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "a9fb5b4b-59ca-4be8-9690-876d9547271d",
+   "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
+   "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 2,
+   "metadata_modified": "2026-10-16T03:05:46.913101",
+   "prov_records": 2,
+   "prov_log": "a9fb5b4b-59ca-4be8-9690-876d9547271d.jsonld",
+   "changes": 2,
+   "last_change": "2026-10-16T04:19:59+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -1658,19 +1713,6 @@
    "last_type": "CONTENT_MOD"
   },
   {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-15T04:01:32.096408",
-   "prov_records": 13,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 13,
-   "last_change": "2026-10-15T04:24:40+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
    "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
    "name": "componentes-tarifarias",
    "title": "Componentes Tarifárias",
@@ -1707,19 +1749,6 @@
    "prov_log": "7f43a020-6dc5-44b8-80b4-d97eaa94436c.jsonld",
    "changes": 2,
    "last_change": "2026-10-10T05:39:46+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "a9fb5b4b-59ca-4be8-9690-876d9547271d",
-   "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
-   "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 2,
-   "metadata_modified": "2026-10-09T03:05:30.515619",
-   "prov_records": 1,
-   "prov_log": "a9fb5b4b-59ca-4be8-9690-876d9547271d.jsonld",
-   "changes": 1,
-   "last_change": "2026-10-09T05:56:55+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
