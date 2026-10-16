@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-16T16:32:24.931558+00:00",
+ "generated_at": "2026-10-16T20:57:08.582136+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-16T16:31:51+00:00",
-  "cycles": 46,
+  "last_cycle": "2026-10-16T20:56:48+00:00",
+  "cycles": 47,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -27,11 +27,11 @@
    "2026-10-13": 3,
    "2026-10-14": 4,
    "2026-10-15": 4,
-   "2026-10-16": 3
+   "2026-10-16": 4
   },
-  "cycles_30d": 46,
+  "cycles_30d": 47,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 28,
+  "distinct_snapshots": 29,
   "failures": [
    {
     "run_id": 38892321098,
@@ -68,16 +68,44 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 113,
-  "prov_records": 113,
+  "prov_events": 115,
+  "prov_records": 115,
   "critical": 2,
   "datasets_changed": 22,
   "by_type": {
-   "SCHEMA_DRIFT": 2,
-   "CONTENT_MOD": 111
+   "CONTENT_MOD": 113,
+   "SCHEMA_DRIFT": 2
   }
  },
  "events": [
+  {
+   "when": "2026-10-16T20:56:48+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
+   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld"
+  },
+  {
+   "when": "2026-10-16T20:56:48+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
+   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "title": "Liberação para operação comercial de empreendimentos de geração",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld"
+  },
   {
    "when": "2026-10-16T11:13:19+00:00",
    "type": "SCHEMA_DRIFT",
@@ -1663,6 +1691,32 @@
  ],
  "datasets": [
   {
+   "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
+   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 12,
+   "metadata_modified": "2026-10-16T20:15:40.116614",
+   "prov_records": 2,
+   "prov_log": "57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld",
+   "changes": 2,
+   "last_change": "2026-10-16T20:56:48+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
+   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "title": "Liberação para operação comercial de empreendimentos de geração",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 6,
+   "metadata_modified": "2026-10-16T19:04:44.360624",
+   "prov_records": 2,
+   "prov_log": "2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld",
+   "changes": 2,
+   "last_change": "2026-10-16T20:56:48+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -1829,32 +1883,6 @@
    "prov_log": "7f43a020-6dc5-44b8-80b4-d97eaa94436c.jsonld",
    "changes": 2,
    "last_change": "2026-10-10T05:39:46+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
-   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
-   "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 12,
-   "metadata_modified": "2026-10-06T16:59:55.337761",
-   "prov_records": 1,
-   "prov_log": "57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld",
-   "changes": 1,
-   "last_change": "2026-10-06T22:36:13+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "2b2ace01-5692-4636-8c99-2a84ff094f4f",
-   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
-   "title": "Liberação para operação comercial de empreendimentos de geração",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 6,
-   "metadata_modified": "2026-10-06T15:52:59.587337",
-   "prov_records": 1,
-   "prov_log": "2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld",
-   "changes": 1,
-   "last_change": "2026-10-06T22:36:13+00:00",
    "last_type": "CONTENT_MOD"
   },
   {

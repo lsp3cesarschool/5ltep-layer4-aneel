@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 113 (2 critical)
+- **Changes recorded as PROV events:** 115 (2 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-16 11:13 UTC
+- **Last change detected:** 2026-10-16 20:56 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,14 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 113 | 2 | 0 |
+| 2026-10 | 115 | 2 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-16 20:56 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld) |
+| 2026-10-16 20:56 | [Liberação para operação comercial de empreendimentos de geração](https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld) |
 | 2026-10-16 11:13 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `SCHEMA_DRIFT` | 1 resource(s) added; file size updated; file date updated | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
 | 2026-10-16 11:13 | [TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/tfsee) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld) |
 | 2026-10-16 11:13 | [Sistema de Gestão da Transmissão - SIGET](https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget) | `SCHEMA_DRIFT` | 1 resource(s) added; file size updated; file date updated | [log](provenance_logs/beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld) |
