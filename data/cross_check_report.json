@@ -1,11 +1,11 @@
 {
   "status": "PENDING",
-  "checked_at": "2026-10-15T08:30:19.476393+00:00",
-  "duration_seconds": 54.39,
+  "checked_at": "2026-10-16T08:22:48.547728+00:00",
+  "duration_seconds": 37.59,
   "portal_url": "https://dadosabertos.aneel.gov.br",
-  "snapshot_run_id": "20261015T042440Z",
-  "snapshot_file": "snapshot_20261015T042440Z.json",
-  "snapshot_age_hours": 4.09,
+  "snapshot_run_id": "20261016T041959Z",
+  "snapshot_file": "snapshot_20261016T041959Z.json",
+  "snapshot_age_hours": 4.05,
   "monitor_tolerance_hours": 7,
   "coverage_ratio": 1.0,
   "min_coverage_ratio": 0.9,
@@ -18,34 +18,10 @@
   },
   "modified": [
     {
-      "id": "364859a2-7cb8-45ea-9c88-b4392516a6ba",
-      "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
-      "snapshot_metadata_modified": "2026-10-10T03:29:46.618551",
-      "live_metadata_modified": "2026-10-15T05:34:37.133037",
-      "snapshot_num_resources": 11,
-      "live_num_resources": 11
-    },
-    {
-      "id": "3e153db4-a503-4093-88be-75d31b002dcf",
-      "name": "samp",
-      "snapshot_metadata_modified": "2026-09-15T05:22:51.386971",
-      "live_metadata_modified": "2026-10-15T05:26:08.502541",
-      "snapshot_num_resources": 49,
-      "live_num_resources": 49
-    },
-    {
-      "id": "3193ebab-81b3-406e-be0e-f968a4a21689",
-      "name": "samp-balanco",
-      "snapshot_metadata_modified": "2026-09-15T05:02:06.336027",
-      "live_metadata_modified": "2026-10-15T05:02:20.323465",
-      "snapshot_num_resources": 3,
-      "live_num_resources": 3
-    },
-    {
       "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
       "name": "sistema-de-gestao-da-transmissao-siget",
-      "snapshot_metadata_modified": "2026-10-14T10:48:42.655079",
-      "live_metadata_modified": "2026-10-15T06:14:44.587325",
+      "snapshot_metadata_modified": "2026-10-15T10:49:39.122817",
+      "live_metadata_modified": "2026-10-16T05:41:27.781503",
       "snapshot_num_resources": 34,
       "live_num_resources": 34
     }
