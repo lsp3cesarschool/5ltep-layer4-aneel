@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 117 (2 critical)
+- **Changes recorded as PROV events:** 122 (2 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-17 04:12 UTC
+- **Last change detected:** 2026-10-17 10:32 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,17 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 117 | 2 | 0 |
+| 2026-10 | 122 | 2 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-17 10:32 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
+| 2026-10-17 10:32 | [TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/tfsee) | `CONTENT_MOD` | File date updated | [log](provenance_logs/738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld) |
+| 2026-10-17 10:32 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
+| 2026-10-17 10:32 | [Ouvidoria Setorial ANEEL](https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld) |
+| 2026-10-17 10:32 | [Componentes Tarifárias](https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld) |
 | 2026-10-17 04:12 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
 | 2026-10-17 04:12 | [Manifestações no 1° e 2° nível da Distribuidora](https://dadosabertos.aneel.gov.br/dataset/manifestacoes-no-1o-e-2o-niveis-da-distribuidora) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/364859a2-7cb8-45ea-9c88-b4392516a6ba.jsonld) |
 | 2026-10-16 20:56 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld) |
