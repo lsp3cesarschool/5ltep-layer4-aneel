@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 133 (2 critical)
+- **Changes recorded as PROV events:** 143 (2 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-19 04:28 UTC
+- **Last change detected:** 2026-10-19 12:56 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,22 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 133 | 2 | 0 |
+| 2026-10 | 143 | 2 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-19 12:56 | [Termos de Intimação das Penas dos Editais (TIPE)](https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/34ea9837-61d5-4585-9968-0a3862eff8f8.jsonld) |
+| 2026-10-19 12:56 | [Termo de Notificação](https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f72dd455-ef2b-4922-862f-e9e59f999ded.jsonld) |
+| 2026-10-19 12:56 | [Termo de Intimação (TI)](https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10.jsonld) |
+| 2026-10-19 12:56 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
+| 2026-10-19 12:56 | [TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/tfsee) | `CONTENT_MOD` | File date updated | [log](provenance_logs/738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld) |
+| 2026-10-19 12:56 | [Sistema de Gestão da Transmissão - SIGET](https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget) | `CONTENT_MOD` | File date updated | [log](provenance_logs/beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld) |
+| 2026-10-19 12:56 | [SIGA - Sistema de Informações de Geração da ANEEL](https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld) |
+| 2026-10-19 12:56 | [Ouvidoria Setorial ANEEL](https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld) |
+| 2026-10-19 12:56 | [Bandeiras Tarifárias](https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/7f43a020-6dc5-44b8-80b4-d97eaa94436c.jsonld) |
+| 2026-10-19 12:56 | [Auto de Infração](https://dadosabertos.aneel.gov.br/dataset/auto-de-infracao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/4d690c9d-8158-4b04-ae44-7d3de8616271.jsonld) |
 | 2026-10-19 04:28 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
 | 2026-10-18 10:53 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
 | 2026-10-18 10:53 | [TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/tfsee) | `CONTENT_MOD` | File date updated | [log](provenance_logs/738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld) |
