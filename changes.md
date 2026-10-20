@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 143 (2 critical)
+- **Changes recorded as PROV events:** 150 (6 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-19 12:56 UTC
+- **Last change detected:** 2026-10-20 04:38 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,19 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 143 | 2 | 0 |
+| 2026-10 | 150 | 6 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-20 04:38 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
+| 2026-10-20 04:38 | [SCS - Sistema de Controle de Subvenções e Programas Sociais](https://dadosabertos.aneel.gov.br/dataset/scs-sistema-de-controle-de-subvencoes-e-programas-sociais) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6.jsonld) |
+| 2026-10-20 04:38 | [Ocorrências Emergenciais nas Redes de Distribuição](https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao) | `SCHEMA_DRIFT` | 1 resource(s) added; resource renamed; resource descriptions edited | [log](provenance_logs/ced06b4c-45a5-4cae-8a7e-f576ffc3b412.jsonld) |
+| 2026-10-20 04:38 | [Liberação para operação comercial de empreendimentos de geração](https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao) | `SCHEMA_DRIFT` | 2 resource(s) removed; license title changed | [log](provenance_logs/2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld) |
+| 2026-10-20 04:38 | [Interrupções de Energia Elétrica nas Redes de Distribuição](https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao) | `SCHEMA_DRIFT` | 1 resource(s) added; resource renamed; resource descriptions edited | [log](provenance_logs/ccb25653-f07b-4f28-84c2-62a89d1f5a56.jsonld) |
+| 2026-10-20 04:38 | [INDGER - Indicadores Gerenciais da Distribuição](https://dadosabertos.aneel.gov.br/dataset/indger-indicadores-gerenciais-da-distribuicao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/7cacb2c4-b165-4591-a793-9ed20d1f167d.jsonld) |
+| 2026-10-20 04:38 | [Evento Situação de Emergência](https://dadosabertos.aneel.gov.br/dataset/evento-situacao-de-emergencia) | `SCHEMA_DRIFT` | 1 resource URL(s) changed; resource renamed; file size updated; file date updated; license title changed | [log](provenance_logs/4788a5ec-3ce2-476d-b72a-337562e0d02d.jsonld) |
 | 2026-10-19 12:56 | [Termos de Intimação das Penas dos Editais (TIPE)](https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/34ea9837-61d5-4585-9968-0a3862eff8f8.jsonld) |
 | 2026-10-19 12:56 | [Termo de Notificação](https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f72dd455-ef2b-4922-862f-e9e59f999ded.jsonld) |
 | 2026-10-19 12:56 | [Termo de Intimação (TI)](https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10.jsonld) |
