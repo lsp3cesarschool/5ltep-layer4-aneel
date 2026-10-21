@@ -1,11 +1,11 @@
 {
  "status": "PENDING",
- "checked_at": "2026-10-20T08:45:43.215503+00:00",
- "duration_seconds": 52.3,
+ "checked_at": "2026-10-21T08:46:45.437875+00:00",
+ "duration_seconds": 58.79,
  "portal_url": "https://dadosabertos.aneel.gov.br",
- "snapshot_run_id": "20261020T043803Z",
- "snapshot_file": "snapshot_20261020T043803Z.json",
- "snapshot_age_hours": 4.13,
+ "snapshot_run_id": "20261021T043107Z",
+ "snapshot_file": "snapshot_20261021T043107Z.json",
+ "snapshot_age_hours": 4.26,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -18,23 +18,23 @@
  },
  "modified": [
   {
-   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-   "name": "componentes-tarifarias",
-   "snapshot_metadata_modified": "2026-10-18T05:35:11.138052",
-   "live_metadata_modified": "2026-10-20T05:33:13.332566",
-   "snapshot_num_resources": 31,
-   "live_num_resources": 31
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "snapshot_metadata_modified": "2026-10-21T04:20:41.769155",
+   "live_metadata_modified": "2026-10-21T05:29:43.372134",
+   "snapshot_num_resources": 5,
+   "live_num_resources": 5
   },
   {
-   "id": "4788a5ec-3ce2-476d-b72a-337562e0d02d",
-   "name": "evento-situacao-de-emergencia",
-   "snapshot_metadata_modified": "2026-10-19T16:07:55.696274",
-   "live_metadata_modified": "2026-10-20T08:34:48.840015",
-   "snapshot_num_resources": 4,
-   "live_num_resources": 4
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "snapshot_metadata_modified": "2026-10-20T10:52:59.030416",
+   "live_metadata_modified": "2026-10-21T05:40:33.975248",
+   "snapshot_num_resources": 35,
+   "live_num_resources": 35
   }
  ],
  "errors": [],
- "sentence": "⏳ **Cross-check pending** — last verified 2026-10-20 08:45 UTC. 2 divergence(s) detected; next monitor run will reconcile (snapshot age 4.1h ≤ 7h tolerance).",
- "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-20 08:45 UTC. 2 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,1 h ≤ tolerância de 7 h)."
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-10-21 08:46 UTC. 2 divergence(s) detected; next monitor run will reconcile (snapshot age 4.3h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-21 08:46 UTC. 2 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,3 h ≤ tolerância de 7 h)."
 }
