@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "5ltep": "https://5ltep.example.org/ontology#",
+    "ckan": "https://ckan.org/schema#",
+    "portal": "https://dadosabertos.aneel.gov.br/"
+  },
+  "5ltep:datasetId": "af2cc4e5-5a31-4b39-98d5-d759abaf1b9e",
+  "5ltep:portalUrl": "https://dadosabertos.aneel.gov.br",
+  "provenance_chain": [
+    {
+      "@context": {
+        "prov": "http://www.w3.org/ns/prov#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "5ltep": "https://5ltep.example.org/ontology#",
+        "ckan": "https://ckan.org/schema#",
+        "portal": "https://dadosabertos.aneel.gov.br/"
+      },
+      "@graph": [
+        {
+          "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#865bcdec37bc",
+          "@type": [
+            "prov:Entity",
+            "5ltep:DatasetSnapshot"
+          ],
+          "prov:wasGeneratedBy": {
+            "@id": "5ltep:run-20261021T170733Z"
+          },
+          "5ltep:changeType": "CONTENT_MOD",
+          "5ltep:severity": "WARNING",
+          "5ltep:datasetId": "af2cc4e5-5a31-4b39-98d5-d759abaf1b9e",
+          "5ltep:contentHash": "865bcdec37bcb4fe9a80e7a197c9143a53b36cf5b4b2c67c65d375ba44a17302",
+          "5ltep:detectedAt": {
+            "@value": "2026-10-21T17:07:33.311713+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAttributedTo": {
+            "@id": "https://dadosabertos.aneel.gov.br/organization/agencia-nacional-de-energia-eletrica"
+          },
+          "prov:wasDerivedFrom": {
+            "@id": "https://dadosabertos.aneel.gov.br/dataset/af2cc4e5-5a31-4b39-98d5-d759abaf1b9e#1fa5b1ed6865"
+          },
+          "5ltep:changeSummary": "File size updated; file date updated",
+          "5ltep:changedFields": [
+            "metadata_modified",
+            "resource.size",
+            "resource.last_modified"
+          ],
+          "5ltep:fieldsOutsideFingerprint": [
+            "resource.hash",
+            "resource.task_created"
+          ],
+          "5ltep:resourceUrlChanges": 0,
+          "5ltep:hostMoves": 0,
+          "5ltep:packagingChanges": 0
+        },
+        {
+          "@id": "5ltep:run-20261021T170733Z",
+          "@type": [
+            "prov:Activity",
+            "5ltep:MonitoringRun"
+          ],
+          "prov:startedAtTime": {
+            "@value": "2026-10-21T17:07:33.314324+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:endedAtTime": {
+            "@value": "2026-10-21T17:07:33.314871+00:00",
+            "@type": "xsd:dateTime"
+          },
+          "prov:wasAssociatedWith": {
+            "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel@5582d4b"
+          },
+          "prov:used": {
+            "@id": "https://dadosabertos.aneel.gov.br/api/3/action/package_show?id=af2cc4e5-5a31-4b39-98d5-d759abaf1b9e"
+          }
+        },
+        {
+          "@id": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel@5582d4b",
+          "@type": [
+            "prov:Agent",
+            "prov:SoftwareAgent"
+          ],
+          "rdfs:label": "5L-TEP Toolkit v1.1.0 (Layer 4 — Observability & Provenance)",
+          "5ltep:repositoryUrl": "https://github.com/lsp3cesarschool/5ltep-layer4-aneel",
+          "5ltep:commitSha": "5582d4b80c2e66c80befa155547bd3dac38a6a23"
+        },
+        {
+          "@id": "https://dadosabertos.aneel.gov.br/organization/agencia-nacional-de-energia-eletrica",
+          "@type": [
+            "prov:Agent",
+            "5ltep:DataCustodian"
+          ],
+          "rdfs:label": "agencia-nacional-de-energia-eletrica",
+          "5ltep:portalUrl": "https://dadosabertos.aneel.gov.br"
+        }
+      ]
+    }
+  ]
+}
