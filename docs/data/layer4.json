@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T04:31:37.363184+00:00",
+ "generated_at": "2026-10-21T11:39:48.417479+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-21T04:31:07+00:00",
-  "cycles": 62,
+  "last_cycle": "2026-10-21T11:38:50+00:00",
+  "cycles": 63,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -32,11 +32,11 @@
    "2026-10-18": 4,
    "2026-10-19": 2,
    "2026-10-20": 4,
-   "2026-10-21": 1
+   "2026-10-21": 2
   },
-  "cycles_30d": 62,
+  "cycles_30d": 63,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 40,
+  "distinct_snapshots": 41,
   "failures": [
    {
     "run_id": 39370588440,
@@ -89,16 +89,86 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 159,
-  "prov_records": 159,
+  "prov_events": 164,
+  "prov_records": 164,
   "critical": 6,
   "datasets_changed": 27,
   "by_type": {
-   "CONTENT_MOD": 153,
+   "CONTENT_MOD": 158,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-21T11:38:50+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld"
+  },
+  {
+   "when": "2026-10-21T11:38:50+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld"
+  },
+  {
+   "when": "2026-10-21T11:38:50+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
+  {
+   "when": "2026-10-21T11:38:50+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld"
+  },
+  {
+   "when": "2026-10-21T11:38:50+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
+   "name": "ouvidoria-setorial-aneel",
+   "title": "Ouvidoria Setorial ANEEL",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld"
+  },
   {
    "when": "2026-10-21T04:31:07+00:00",
    "type": "CONTENT_MOD",
@@ -2328,16 +2398,68 @@
  ],
  "datasets": [
   {
+   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 4,
+   "metadata_modified": "2026-10-21T10:06:01.849238",
+   "prov_records": 19,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
+   "changes": 19,
+   "last_change": "2026-10-21T11:38:50+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 35,
+   "metadata_modified": "2026-10-21T10:53:46.069177",
+   "prov_records": 20,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
+   "changes": 20,
+   "last_change": "2026-10-21T11:38:50+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
    "name": "sigec-sistema-de-gestao-de-creditos",
    "title": "SIGEC - Sistema de Gestão de Créditos",
    "organization": "Agência Nacional de Energia Elétrica",
    "resources": 5,
-   "metadata_modified": "2026-10-21T04:20:41.769155",
-   "prov_records": 21,
+   "metadata_modified": "2026-10-21T05:29:43.372134",
+   "prov_records": 22,
    "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 21,
-   "last_change": "2026-10-21T04:31:07+00:00",
+   "changes": 22,
+   "last_change": "2026-10-21T11:38:50+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-21T10:43:56.368103",
+   "prov_records": 17,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
+   "changes": 17,
+   "last_change": "2026-10-21T11:38:50+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
+   "name": "ouvidoria-setorial-aneel",
+   "title": "Ouvidoria Setorial ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 19,
+   "metadata_modified": "2026-10-21T10:04:49.214435",
+   "prov_records": 19,
+   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
+   "changes": 19,
+   "last_change": "2026-10-21T11:38:50+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -2354,19 +2476,6 @@
    "last_type": "CONTENT_MOD"
   },
   {
-   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
-   "name": "tarifas-distribuidoras-energia-eletrica",
-   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 4,
-   "metadata_modified": "2026-10-20T10:05:39.919579",
-   "prov_records": 18,
-   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
-   "changes": 18,
-   "last_change": "2026-10-20T11:23:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
    "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
    "name": "tfsee",
    "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
@@ -2375,45 +2484,6 @@
    "metadata_modified": "2026-10-20T09:06:13.004648",
    "prov_records": 18,
    "prov_log": "738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld",
-   "changes": 18,
-   "last_change": "2026-10-20T11:23:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
-   "name": "sistema-de-gestao-da-transmissao-siget",
-   "title": "Sistema de Gestão da Transmissão - SIGET",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 35,
-   "metadata_modified": "2026-10-20T10:52:59.030416",
-   "prov_records": 19,
-   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
-   "changes": 19,
-   "last_change": "2026-10-20T11:23:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
-   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-20T10:45:47.784386",
-   "prov_records": 16,
-   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
-   "changes": 16,
-   "last_change": "2026-10-20T11:23:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
-   "name": "ouvidoria-setorial-aneel",
-   "title": "Ouvidoria Setorial ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 19,
-   "metadata_modified": "2026-10-20T10:04:29.157119",
-   "prov_records": 18,
-   "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
    "changes": 18,
    "last_change": "2026-10-20T11:23:48+00:00",
    "last_type": "CONTENT_MOD"
