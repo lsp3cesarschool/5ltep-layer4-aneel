@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T21:32:37.307323+00:00",
+ "generated_at": "2026-10-21T04:31:37.363184+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-20T21:32:03+00:00",
-  "cycles": 61,
+  "last_cycle": "2026-10-21T04:31:07+00:00",
+  "cycles": 62,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -31,11 +31,12 @@
    "2026-10-17": 4,
    "2026-10-18": 4,
    "2026-10-19": 2,
-   "2026-10-20": 4
+   "2026-10-20": 4,
+   "2026-10-21": 1
   },
-  "cycles_30d": 61,
+  "cycles_30d": 62,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 39,
+  "distinct_snapshots": 40,
   "failures": [
    {
     "run_id": 39370588440,
@@ -88,16 +89,30 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 158,
-  "prov_records": 158,
+  "prov_events": 159,
+  "prov_records": 159,
   "critical": 6,
   "datasets_changed": 27,
   "by_type": {
-   "CONTENT_MOD": 152,
+   "CONTENT_MOD": 153,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-21T04:31:07+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-20T21:32:03+00:00",
    "type": "CONTENT_MOD",
@@ -2313,6 +2328,19 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-21T04:20:41.769155",
+   "prov_records": 21,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 21,
+   "last_change": "2026-10-21T04:31:07+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
    "name": "cfurh",
    "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
@@ -2414,19 +2442,6 @@
    "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
    "changes": 11,
    "last_change": "2026-10-20T11:23:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-20T04:18:13.029501",
-   "prov_records": 20,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 20,
-   "last_change": "2026-10-20T04:38:03+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
