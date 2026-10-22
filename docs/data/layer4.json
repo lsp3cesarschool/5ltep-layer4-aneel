@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T21:34:08.505400+00:00",
+ "generated_at": "2026-10-22T04:29:45.756609+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-21T21:33:35+00:00",
-  "cycles": 65,
+  "last_cycle": "2026-10-22T04:29:23+00:00",
+  "cycles": 66,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -32,11 +32,12 @@
    "2026-10-18": 4,
    "2026-10-19": 2,
    "2026-10-20": 4,
-   "2026-10-21": 4
+   "2026-10-21": 4,
+   "2026-10-22": 1
   },
-  "cycles_30d": 65,
+  "cycles_30d": 66,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 42,
+  "distinct_snapshots": 43,
   "failures": [
    {
     "run_id": 39370588440,
@@ -89,16 +90,30 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 166,
-  "prov_records": 166,
+  "prov_events": 167,
+  "prov_records": 167,
   "critical": 6,
   "datasets_changed": 28,
   "by_type": {
-   "CONTENT_MOD": 160,
+   "CONTENT_MOD": 161,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-22T04:29:23+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-21T17:04:46+00:00",
    "type": "CONTENT_MOD",
@@ -2426,6 +2441,19 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-22T04:20:46.077734",
+   "prov_records": 23,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 23,
+   "last_change": "2026-10-22T04:29:23+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "af2cc4e5-5a31-4b39-98d5-d759abaf1b9e",
    "name": "indqual-inadimplencia",
    "title": "Indqual Inadimplência",
@@ -2474,19 +2502,6 @@
    "prov_records": 20,
    "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
    "changes": 20,
-   "last_change": "2026-10-21T11:38:50+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-21T05:29:43.372134",
-   "prov_records": 22,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 22,
    "last_change": "2026-10-21T11:38:50+00:00",
    "last_type": "CONTENT_MOD"
   },
