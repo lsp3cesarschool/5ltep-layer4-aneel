@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 181 (6 critical)
+- **Changes recorded as PROV events:** 187 (6 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-23 11:28 UTC
+- **Last change detected:** 2026-10-23 16:57 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,18 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 181 | 6 | 0 |
+| 2026-10 | 187 | 6 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-23 16:57 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld) |
+| 2026-10-23 16:57 | [Qualidade do Atendimento Comercial](https://dadosabertos.aneel.gov.br/dataset/qualidade-do-atendimento-comercial) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/b7b32b0c-4bac-4584-b9ec-76a32c05ca02.jsonld) |
+| 2026-10-23 16:57 | [Liberação para operação comercial de empreendimentos de geração](https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld) |
+| 2026-10-23 16:57 | [Indicadores Coletivos de Continuidade (DEC e FEC)](https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/d5f0712e-62f6-4736-8dff-9991f10758a7.jsonld) |
+| 2026-10-23 16:57 | [IndQual Município](https://dadosabertos.aneel.gov.br/dataset/indqual-municipio) | `CONTENT_MOD` | File date updated | [log](provenance_logs/db9c9f60-b3b5-4504-9dfe-2637922d53ce.jsonld) |
+| 2026-10-23 16:57 | [Atendimento às Ocorrências Emergenciais](https://dadosabertos.aneel.gov.br/dataset/atendimento-ocorrencias-emergenciais) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/dcdff65d-d173-4d2e-a3b9-84eec7702f06.jsonld) |
 | 2026-10-23 11:28 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
 | 2026-10-23 11:28 | [TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/tfsee) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld) |
 | 2026-10-23 11:28 | [Sistema de Gestão da Transmissão - SIGET](https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld) |
