@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 187 (6 critical)
+- **Changes recorded as PROV events:** 189 (6 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-23 16:57 UTC
+- **Last change detected:** 2026-10-24 04:25 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,14 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 187 | 6 | 0 |
+| 2026-10 | 189 | 6 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-24 04:25 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
+| 2026-10-24 04:25 | [Manifestações no 1° e 2° nível da Distribuidora](https://dadosabertos.aneel.gov.br/dataset/manifestacoes-no-1o-e-2o-niveis-da-distribuidora) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/364859a2-7cb8-45ea-9c88-b4392516a6ba.jsonld) |
 | 2026-10-23 16:57 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/57e4b8b5-a5db-40e6-9901-27ca629d0477.jsonld) |
 | 2026-10-23 16:57 | [Qualidade do Atendimento Comercial](https://dadosabertos.aneel.gov.br/dataset/qualidade-do-atendimento-comercial) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/b7b32b0c-4bac-4584-b9ec-76a32c05ca02.jsonld) |
 | 2026-10-23 16:57 | [Liberação para operação comercial de empreendimentos de geração](https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/2b2ace01-5692-4636-8c99-2a84ff094f4f.jsonld) |

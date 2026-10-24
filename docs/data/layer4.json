@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-23T21:20:04.678685+00:00",
+ "generated_at": "2026-10-24T04:25:42.738052+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-23T21:19:08+00:00",
-  "cycles": 73,
+  "last_cycle": "2026-10-24T04:25:01+00:00",
+  "cycles": 74,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -34,11 +34,12 @@
    "2026-10-20": 4,
    "2026-10-21": 4,
    "2026-10-22": 4,
-   "2026-10-23": 4
+   "2026-10-23": 4,
+   "2026-10-24": 1
   },
-  "cycles_30d": 73,
+  "cycles_30d": 74,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 47,
+  "distinct_snapshots": 48,
   "failures": [
    {
     "run_id": 39370588440,
@@ -91,16 +92,44 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 187,
-  "prov_records": 187,
+  "prov_events": 189,
+  "prov_records": 189,
   "critical": 6,
   "datasets_changed": 31,
   "by_type": {
-   "CONTENT_MOD": 181,
+   "CONTENT_MOD": 183,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-24T04:25:01+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File date updated; license title changed",
+   "summary_pt": "Data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
+  {
+   "when": "2026-10-24T04:25:01+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "364859a2-7cb8-45ea-9c88-b4392516a6ba",
+   "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "title": "Manifestações no 1° e 2° nível da Distribuidora",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "364859a2-7cb8-45ea-9c88-b4392516a6ba.jsonld"
+  },
   {
    "when": "2026-10-23T16:57:18+00:00",
    "type": "CONTENT_MOD",
@@ -2722,6 +2751,32 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-24T04:03:26.564481",
+   "prov_records": 26,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 26,
+   "last_change": "2026-10-24T04:25:01+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "364859a2-7cb8-45ea-9c88-b4392516a6ba",
+   "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "title": "Manifestações no 1° e 2° nível da Distribuidora",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 11,
+   "metadata_modified": "2026-10-24T03:50:37.276028",
+   "prov_records": 5,
+   "prov_log": "364859a2-7cb8-45ea-9c88-b4392516a6ba.jsonld",
+   "changes": 5,
+   "last_change": "2026-10-24T04:25:01+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "57e4b8b5-a5db-40e6-9901-27ca629d0477",
    "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
@@ -2835,19 +2890,6 @@
    "prov_records": 22,
    "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
    "changes": 22,
-   "last_change": "2026-10-23T11:28:51+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-23T05:31:12.499789",
-   "prov_records": 25,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 25,
    "last_change": "2026-10-23T11:28:51+00:00",
    "last_type": "CONTENT_MOD"
   },
@@ -3057,19 +3099,6 @@
    "prov_log": "4d690c9d-8158-4b04-ae44-7d3de8616271.jsonld",
    "changes": 2,
    "last_change": "2026-10-19T12:56:04+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "364859a2-7cb8-45ea-9c88-b4392516a6ba",
-   "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
-   "title": "Manifestações no 1° e 2° nível da Distribuidora",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 11,
-   "metadata_modified": "2026-10-17T03:41:48.821966",
-   "prov_records": 4,
-   "prov_log": "364859a2-7cb8-45ea-9c88-b4392516a6ba.jsonld",
-   "changes": 4,
-   "last_change": "2026-10-17T04:12:08+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
