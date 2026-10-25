@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T16:01:54.777580+00:00",
+ "generated_at": "2026-10-25T20:44:44.762274+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-25T16:01:10+00:00",
-  "cycles": 79,
+  "last_cycle": "2026-10-25T20:44:12+00:00",
+  "cycles": 80,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -36,11 +36,11 @@
    "2026-10-22": 4,
    "2026-10-23": 4,
    "2026-10-24": 3,
-   "2026-10-25": 3
+   "2026-10-25": 4
   },
-  "cycles_30d": 79,
+  "cycles_30d": 80,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 51,
+  "distinct_snapshots": 52,
   "failures": [
    {
     "run_id": 40087330425,
@@ -101,16 +101,30 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 200,
-  "prov_records": 200,
+  "prov_events": 201,
+  "prov_records": 201,
   "critical": 6,
   "datasets_changed": 31,
   "by_type": {
-   "CONTENT_MOD": 194,
+   "CONTENT_MOD": 195,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-25T20:44:12+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld"
+  },
   {
    "when": "2026-10-25T11:13:42+00:00",
    "type": "CONTENT_MOD",
@@ -2914,6 +2928,19 @@
  ],
  "datasets": [
   {
+   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 31,
+   "metadata_modified": "2026-10-25T17:19:54.344433",
+   "prov_records": 14,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
+   "changes": 14,
+   "last_change": "2026-10-25T20:44:12+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
    "name": "sistema-de-gestao-da-transmissao-siget",
    "title": "Sistema de Gestão da Transmissão - SIGET",
@@ -2988,19 +3015,6 @@
    "prov_records": 22,
    "prov_log": "1206d323-ad8c-46c6-bc2d-9b731e42ee26.jsonld",
    "changes": 22,
-   "last_change": "2026-10-24T15:49:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-   "name": "componentes-tarifarias",
-   "title": "Componentes Tarifárias",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 31,
-   "metadata_modified": "2026-10-24T08:23:53.293715",
-   "prov_records": 13,
-   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
-   "changes": 13,
    "last_change": "2026-10-24T15:49:48+00:00",
    "last_type": "CONTENT_MOD"
   },
