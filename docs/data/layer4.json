@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T04:29:11.146718+00:00",
+ "generated_at": "2026-10-25T11:13:58.709972+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-25T04:28:48+00:00",
-  "cycles": 77,
+  "last_cycle": "2026-10-25T11:13:42+00:00",
+  "cycles": 78,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -36,11 +36,11 @@
    "2026-10-22": 4,
    "2026-10-23": 4,
    "2026-10-24": 3,
-   "2026-10-25": 1
+   "2026-10-25": 2
   },
-  "cycles_30d": 77,
+  "cycles_30d": 78,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 50,
+  "distinct_snapshots": 51,
   "failures": [
    {
     "run_id": 40087330425,
@@ -101,16 +101,58 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 197,
-  "prov_records": 197,
+  "prov_events": 200,
+  "prov_records": 200,
   "critical": 6,
   "datasets_changed": 31,
   "by_type": {
-   "CONTENT_MOD": 191,
+   "CONTENT_MOD": 194,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-25T11:13:42+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld"
+  },
+  {
+   "when": "2026-10-25T11:13:42+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
+  {
+   "when": "2026-10-25T11:13:42+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld"
+  },
   {
    "when": "2026-10-25T04:28:48+00:00",
    "type": "CONTENT_MOD",
@@ -2872,16 +2914,42 @@
  ],
  "datasets": [
   {
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 35,
+   "metadata_modified": "2026-10-25T10:52:51.580843",
+   "prov_records": 24,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
+   "changes": 24,
+   "last_change": "2026-10-25T11:13:42+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
    "name": "sigec-sistema-de-gestao-de-creditos",
    "title": "SIGEC - Sistema de Gestão de Créditos",
    "organization": "Agência Nacional de Energia Elétrica",
    "resources": 5,
-   "metadata_modified": "2026-10-25T04:22:43.824646",
-   "prov_records": 28,
+   "metadata_modified": "2026-10-25T05:28:37.095549",
+   "prov_records": 29,
    "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 28,
-   "last_change": "2026-10-25T04:28:48+00:00",
+   "changes": 29,
+   "last_change": "2026-10-25T11:13:42+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-25T10:45:54.950322",
+   "prov_records": 21,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
+   "changes": 21,
+   "last_change": "2026-10-25T11:13:42+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -2907,32 +2975,6 @@
    "prov_records": 21,
    "prov_log": "738e425b-5554-4fe4-8a8a-2d163308e9ff.jsonld",
    "changes": 21,
-   "last_change": "2026-10-24T15:49:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
-   "name": "sistema-de-gestao-da-transmissao-siget",
-   "title": "Sistema de Gestão da Transmissão - SIGET",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 35,
-   "metadata_modified": "2026-10-24T10:54:47.271784",
-   "prov_records": 23,
-   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
-   "changes": 23,
-   "last_change": "2026-10-24T15:49:48+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
-   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-24T10:44:57.039010",
-   "prov_records": 20,
-   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
-   "changes": 20,
    "last_change": "2026-10-24T15:49:48+00:00",
    "last_type": "CONTENT_MOD"
   },
