@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 213 (6 critical)
+- **Changes recorded as PROV events:** 214 (6 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-10-26 12:47 UTC
+- **Last change detected:** 2026-10-27 04:50 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,12 +20,13 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-10 | 213 | 6 | 0 |
+| 2026-10 | 214 | 6 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-10-27 04:50 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
 | 2026-10-26 12:47 | [Termos de Intimação das Penas dos Editais (TIPE)](https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe) | `CONTENT_MOD` | File date updated | [log](provenance_logs/34ea9837-61d5-4585-9968-0a3862eff8f8.jsonld) |
 | 2026-10-26 12:47 | [Termo de Notificação](https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f72dd455-ef2b-4922-862f-e9e59f999ded.jsonld) |
 | 2026-10-26 12:47 | [Termo de Intimação (TI)](https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti) | `CONTENT_MOD` | File date updated | [log](provenance_logs/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10.jsonld) |
@@ -225,6 +226,5 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 | 2026-10-05 05:25 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
 | 2026-10-05 05:25 | [Indicadores Coletivos de Continuidade (DEC e FEC)](https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/d5f0712e-62f6-4736-8dff-9991f10758a7.jsonld) |
 | 2026-10-05 05:25 | [Componentes Tarifárias](https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld) |
-| 2026-10-04 12:14 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `CONTENT_MOD` | File date updated; license title changed | [log](provenance_logs/5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld) |
 
-_Showing the latest 200 of 213 changes._
+_Showing the latest 200 of 214 changes._

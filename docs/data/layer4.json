@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-26T22:36:21.616672+00:00",
+ "generated_at": "2026-10-27T04:51:38.534900+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-26T22:35:30+00:00",
-  "cycles": 83,
+  "last_cycle": "2026-10-27T04:50:29+00:00",
+  "cycles": 84,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -37,11 +37,12 @@
    "2026-10-23": 4,
    "2026-10-24": 3,
    "2026-10-25": 4,
-   "2026-10-26": 3
+   "2026-10-26": 3,
+   "2026-10-27": 1
   },
-  "cycles_30d": 83,
+  "cycles_30d": 84,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 54,
+  "distinct_snapshots": 55,
   "failures": [
    {
     "run_id": 40087330425,
@@ -102,16 +103,30 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 213,
-  "prov_records": 213,
+  "prov_events": 214,
+  "prov_records": 214,
   "critical": 6,
   "datasets_changed": 31,
   "by_type": {
-   "CONTENT_MOD": 207,
+   "CONTENT_MOD": 208,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-27T04:50:29+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-26T12:47:27+00:00",
    "type": "CONTENT_MOD",
@@ -3097,6 +3112,19 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-27T04:28:37.262373",
+   "prov_records": 32,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 32,
+   "last_change": "2026-10-27T04:50:29+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "34ea9837-61d5-4585-9968-0a3862eff8f8",
    "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "title": "Termos de Intimação das Penas dos Editais (TIPE)",
@@ -3158,19 +3186,6 @@
    "prov_records": 25,
    "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
    "changes": 25,
-   "last_change": "2026-10-26T12:47:27+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-26T05:28:36.819820",
-   "prov_records": 31,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 31,
    "last_change": "2026-10-26T12:47:27+00:00",
    "last_type": "CONTENT_MOD"
   },
