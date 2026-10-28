@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-27T22:07:12.425041+00:00",
+ "generated_at": "2026-10-28T05:26:12.653873+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-27T22:06:21+00:00",
-  "cycles": 87,
+  "last_cycle": "2026-10-28T05:25:47+00:00",
+  "cycles": 88,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -38,11 +38,12 @@
    "2026-10-24": 3,
    "2026-10-25": 4,
    "2026-10-26": 3,
-   "2026-10-27": 4
+   "2026-10-27": 4,
+   "2026-10-28": 1
   },
-  "cycles_30d": 87,
+  "cycles_30d": 88,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 57,
+  "distinct_snapshots": 58,
   "failures": [
    {
     "run_id": 40087330425,
@@ -103,16 +104,30 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 221,
-  "prov_records": 221,
+  "prov_events": 222,
+  "prov_records": 222,
   "critical": 6,
   "datasets_changed": 32,
   "by_type": {
-   "CONTENT_MOD": 215,
+   "CONTENT_MOD": 216,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-28T05:25:47+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld"
+  },
   {
    "when": "2026-10-27T17:53:47+00:00",
    "type": "CONTENT_MOD",
@@ -3210,6 +3225,19 @@
  ],
  "datasets": [
   {
+   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "title": "SIGEC - Sistema de Gestão de Créditos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-28T04:18:00.464095",
+   "prov_records": 34,
+   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
+   "changes": 34,
+   "last_change": "2026-10-28T05:25:47+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "cb79864b-0cfd-475a-8b7a-f8f23d86cf31",
    "name": "composicao-societaria-polimero",
    "title": "Composição Societária - Polímero",
@@ -3258,19 +3286,6 @@
    "prov_records": 26,
    "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
    "changes": 26,
-   "last_change": "2026-10-27T12:00:24+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
-   "name": "sigec-sistema-de-gestao-de-creditos",
-   "title": "SIGEC - Sistema de Gestão de Créditos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-27T05:27:04.650089",
-   "prov_records": 33,
-   "prov_log": "da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld",
-   "changes": 33,
    "last_change": "2026-10-27T12:00:24+00:00",
    "last_type": "CONTENT_MOD"
   },
