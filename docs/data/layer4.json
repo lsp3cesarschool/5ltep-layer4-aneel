@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T12:45:21.253135+00:00",
+ "generated_at": "2026-10-28T22:29:44.457709+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-28T12:40:31+00:00",
-  "cycles": 89,
+  "last_cycle": "2026-10-28T22:29:20+00:00",
+  "cycles": 90,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -39,11 +39,11 @@
    "2026-10-25": 4,
    "2026-10-26": 3,
    "2026-10-27": 4,
-   "2026-10-28": 2
+   "2026-10-28": 3
   },
-  "cycles_30d": 89,
+  "cycles_30d": 90,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 59,
+  "distinct_snapshots": 60,
   "failures": [
    {
     "run_id": 40087330425,
@@ -104,16 +104,86 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 225,
-  "prov_records": 225,
+  "prov_events": 230,
+  "prov_records": 230,
   "critical": 6,
-  "datasets_changed": 32,
+  "datasets_changed": 34,
   "by_type": {
-   "CONTENT_MOD": 219,
+   "CONTENT_MOD": 224,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-28T22:29:20+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "4788a5ec-3ce2-476d-b72a-337562e0d02d",
+   "name": "evento-situacao-de-emergencia",
+   "title": "Evento Situação de Emergência",
+   "summary": "License title changed",
+   "summary_pt": "Título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "4788a5ec-3ce2-476d-b72a-337562e0d02d.jsonld"
+  },
+  {
+   "when": "2026-10-28T22:29:20+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld"
+  },
+  {
+   "when": "2026-10-28T22:29:20+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
+   "name": "cfurh",
+   "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "855a73ed-f4e0-4e88-8467-c330ba0223d3.jsonld"
+  },
+  {
+   "when": "2026-10-28T22:29:20+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "db3838bc-96b4-4335-9061-ca330f5bb39a",
+   "name": "audiencias-e-consultas-publicas",
+   "title": "Audiências e Consultas Públicas",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "db3838bc-96b4-4335-9061-ca330f5bb39a.jsonld"
+  },
+  {
+   "when": "2026-10-28T22:29:20+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "f0773920-9847-46cb-9bc0-dde68761c573",
+   "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+   "title": "Atendimento a pedidos de conexões MMGD - Mini e Microgeração distribuída - pós Lei 14300",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "f0773920-9847-46cb-9bc0-dde68761c573.jsonld"
+  },
   {
    "when": "2026-10-28T12:40:31+00:00",
    "type": "CONTENT_MOD",
@@ -3267,6 +3337,71 @@
  ],
  "datasets": [
   {
+   "id": "4788a5ec-3ce2-476d-b72a-337562e0d02d",
+   "name": "evento-situacao-de-emergencia",
+   "title": "Evento Situação de Emergência",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 4,
+   "metadata_modified": "2026-10-28T22:11:06.423567",
+   "prov_records": 3,
+   "prov_log": "4788a5ec-3ce2-476d-b72a-337562e0d02d.jsonld",
+   "changes": 3,
+   "last_change": "2026-10-28T22:29:20+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
+   "name": "componentes-tarifarias",
+   "title": "Componentes Tarifárias",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 31,
+   "metadata_modified": "2026-10-28T15:07:10.636206",
+   "prov_records": 16,
+   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
+   "changes": 16,
+   "last_change": "2026-10-28T22:29:20+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
+   "name": "cfurh",
+   "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 20,
+   "metadata_modified": "2026-10-28T15:31:50.829118",
+   "prov_records": 4,
+   "prov_log": "855a73ed-f4e0-4e88-8467-c330ba0223d3.jsonld",
+   "changes": 4,
+   "last_change": "2026-10-28T22:29:20+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "db3838bc-96b4-4335-9061-ca330f5bb39a",
+   "name": "audiencias-e-consultas-publicas",
+   "title": "Audiências e Consultas Públicas",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 2,
+   "metadata_modified": "2026-10-28T17:29:41.880505",
+   "prov_records": 1,
+   "prov_log": "db3838bc-96b4-4335-9061-ca330f5bb39a.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-28T22:29:20+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "f0773920-9847-46cb-9bc0-dde68761c573",
+   "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+   "title": "Atendimento a pedidos de conexões MMGD - Mini e Microgeração distribuída - pós Lei 14300",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 11,
+   "metadata_modified": "2026-10-28T16:02:40.405750",
+   "prov_records": 1,
+   "prov_log": "f0773920-9847-46cb-9bc0-dde68761c573.jsonld",
+   "changes": 1,
+   "last_change": "2026-10-28T22:29:20+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
    "name": "tarifas-distribuidoras-energia-eletrica",
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
@@ -3332,19 +3467,6 @@
    "last_type": "CONTENT_MOD"
   },
   {
-   "id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
-   "name": "cfurh",
-   "title": "CFURH - Compensação Financeira pela Utilização de Recursos Hídricos",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 20,
-   "metadata_modified": "2026-10-27T14:58:11.360577",
-   "prov_records": 3,
-   "prov_log": "855a73ed-f4e0-4e88-8467-c330ba0223d3.jsonld",
-   "changes": 3,
-   "last_change": "2026-10-27T17:53:47+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
    "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
    "name": "ouvidoria-setorial-aneel",
    "title": "Ouvidoria Setorial ANEEL",
@@ -3393,19 +3515,6 @@
    "prov_records": 3,
    "prov_log": "e8d03b9e-3717-46dc-b0c4-c33d3bf80b10.jsonld",
    "changes": 3,
-   "last_change": "2026-10-26T12:47:27+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-   "name": "componentes-tarifarias",
-   "title": "Componentes Tarifárias",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 31,
-   "metadata_modified": "2026-10-26T06:43:29.707655",
-   "prov_records": 15,
-   "prov_log": "613e6b74-1a4b-4c48-a231-096815e96bd5.jsonld",
-   "changes": 15,
    "last_change": "2026-10-26T12:47:27+00:00",
    "last_type": "CONTENT_MOD"
   },
@@ -3563,19 +3672,6 @@
    "prov_log": "af2cc4e5-5a31-4b39-98d5-d759abaf1b9e.jsonld",
    "changes": 1,
    "last_change": "2026-10-21T17:04:46+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "4788a5ec-3ce2-476d-b72a-337562e0d02d",
-   "name": "evento-situacao-de-emergencia",
-   "title": "Evento Situação de Emergência",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 4,
-   "metadata_modified": "2026-10-20T08:34:48.840015",
-   "prov_records": 2,
-   "prov_log": "4788a5ec-3ce2-476d-b72a-337562e0d02d.jsonld",
-   "changes": 2,
-   "last_change": "2026-10-20T11:23:48+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
@@ -4125,38 +4221,12 @@
    "last_type": null
   },
   {
-   "id": "db3838bc-96b4-4335-9061-ca330f5bb39a",
-   "name": "audiencias-e-consultas-publicas",
-   "title": "Audiências e Consultas Públicas",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 2,
-   "metadata_modified": "2026-10-01T09:00:57.962753",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
    "id": "2d8a4c72-ed48-4afc-b14f-cc8f5c499a68",
    "name": "atos-de-outorgas-de-geracao",
    "title": "Atos de Outorgas de Geração",
    "organization": "Agência Nacional de Energia Elétrica",
    "resources": 2,
    "metadata_modified": "2026-10-01T05:03:33.306762",
-   "prov_records": 0,
-   "prov_log": null,
-   "changes": 0,
-   "last_change": null,
-   "last_type": null
-  },
-  {
-   "id": "f0773920-9847-46cb-9bc0-dde68761c573",
-   "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
-   "title": "Atendimento a pedidos de conexões MMGD - Mini e Microgeração distribuída - pós Lei 14300",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 11,
-   "metadata_modified": "2026-10-01T05:59:44.590652",
    "prov_records": 0,
    "prov_log": null,
    "changes": 0,
