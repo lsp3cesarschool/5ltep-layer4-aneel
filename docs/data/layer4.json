@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-10-28T05:26:12.653873+00:00",
+ "generated_at": "2026-10-28T12:45:21.253135+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -10,8 +10,8 @@
  },
  "monitoring": {
   "since": "2026-10-02T12:57:22+00:00",
-  "last_cycle": "2026-10-28T05:25:47+00:00",
-  "cycles": 88,
+  "last_cycle": "2026-10-28T12:40:31+00:00",
+  "cycles": 89,
   "cycles_by_day": {
    "2026-10-02": 4,
    "2026-10-03": 4,
@@ -39,11 +39,11 @@
    "2026-10-25": 4,
    "2026-10-26": 3,
    "2026-10-27": 4,
-   "2026-10-28": 1
+   "2026-10-28": 2
   },
-  "cycles_30d": 88,
+  "cycles_30d": 89,
   "max_gap_hours_30d": 18.8,
-  "distinct_snapshots": 58,
+  "distinct_snapshots": 59,
   "failures": [
    {
     "run_id": 40087330425,
@@ -104,16 +104,58 @@
   "datasets": 72,
   "resources": 633,
   "organizations": 1,
-  "prov_events": 222,
-  "prov_records": 222,
+  "prov_events": 225,
+  "prov_records": 225,
   "critical": 6,
   "datasets_changed": 32,
   "by_type": {
-   "CONTENT_MOD": 216,
+   "CONTENT_MOD": 219,
    "SCHEMA_DRIFT": 6
   }
  },
  "events": [
+  {
+   "when": "2026-10-28T12:40:31+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "summary": "File size updated; file date updated; license title changed",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada; título da licença alterado",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld"
+  },
+  {
+   "when": "2026-10-28T12:40:31+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "summary": "File date updated",
+   "summary_pt": "Data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld"
+  },
+  {
+   "when": "2026-10-28T12:40:31+00:00",
+   "type": "CONTENT_MOD",
+   "severity": "WARNING",
+   "dataset_id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "summary": "File size updated; file date updated",
+   "summary_pt": "Tamanho do arquivo atualizado; data do arquivo atualizada",
+   "host_pairs": [],
+   "zip_to_plain": 0,
+   "plain_to_zip": 0,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld"
+  },
   {
    "when": "2026-10-28T05:25:47+00:00",
    "type": "CONTENT_MOD",
@@ -3225,6 +3267,45 @@
  ],
  "datasets": [
   {
+   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 4,
+   "metadata_modified": "2026-10-28T11:52:25.833361",
+   "prov_records": 25,
+   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
+   "changes": 25,
+   "last_change": "2026-10-28T12:40:31+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 35,
+   "metadata_modified": "2026-10-28T10:57:30.230966",
+   "prov_records": 27,
+   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
+   "changes": 27,
+   "last_change": "2026-10-28T12:40:31+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
+   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
+   "organization": "Agência Nacional de Energia Elétrica",
+   "resources": 5,
+   "metadata_modified": "2026-10-28T10:44:55.815021",
+   "prov_records": 24,
+   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
+   "changes": 24,
+   "last_change": "2026-10-28T12:40:31+00:00",
+   "last_type": "CONTENT_MOD"
+  },
+  {
    "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
    "name": "sigec-sistema-de-gestao-de-creditos",
    "title": "SIGEC - Sistema de Gestão de Créditos",
@@ -3261,45 +3342,6 @@
    "prov_log": "855a73ed-f4e0-4e88-8467-c330ba0223d3.jsonld",
    "changes": 3,
    "last_change": "2026-10-27T17:53:47+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
-   "name": "tarifas-distribuidoras-energia-eletrica",
-   "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 4,
-   "metadata_modified": "2026-10-27T10:21:09.397879",
-   "prov_records": 24,
-   "prov_log": "5a583f3e-1646-4f67-bf0f-69db4203e89e.jsonld",
-   "changes": 24,
-   "last_change": "2026-10-27T12:00:24+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
-   "name": "sistema-de-gestao-da-transmissao-siget",
-   "title": "Sistema de Gestão da Transmissão - SIGET",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 35,
-   "metadata_modified": "2026-10-27T10:54:44.994191",
-   "prov_records": 26,
-   "prov_log": "beefe870-7452-4830-a7b0-6611e3d5eff6.jsonld",
-   "changes": 26,
-   "last_change": "2026-10-27T12:00:24+00:00",
-   "last_type": "CONTENT_MOD"
-  },
-  {
-   "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
-   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "title": "SIGA - Sistema de Informações de Geração da ANEEL",
-   "organization": "Agência Nacional de Energia Elétrica",
-   "resources": 5,
-   "metadata_modified": "2026-10-27T10:44:49.612452",
-   "prov_records": 23,
-   "prov_log": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld",
-   "changes": 23,
-   "last_change": "2026-10-27T12:00:24+00:00",
    "last_type": "CONTENT_MOD"
   },
   {
