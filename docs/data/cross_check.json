@@ -1,11 +1,11 @@
 {
  "status": "PENDING",
- "checked_at": "2026-10-30T10:19:18.322120+00:00",
- "duration_seconds": 62.36,
+ "checked_at": "2026-10-31T09:51:57.779128+00:00",
+ "duration_seconds": 40.36,
  "portal_url": "https://dadosabertos.aneel.gov.br",
- "snapshot_run_id": "20261030T053401Z",
- "snapshot_file": "snapshot_20261030T053401Z.json",
- "snapshot_age_hours": 4.75,
+ "snapshot_run_id": "20261031T052230Z",
+ "snapshot_file": "snapshot_20261031T052230Z.json",
+ "snapshot_age_hours": 4.49,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 1.0,
  "min_coverage_ratio": 0.9,
@@ -18,39 +18,39 @@
  },
  "modified": [
   {
-   "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-   "name": "componentes-tarifarias",
-   "snapshot_metadata_modified": "2026-10-29T16:58:04.114128",
-   "live_metadata_modified": "2026-10-30T08:42:10.820157",
-   "snapshot_num_resources": 31,
-   "live_num_resources": 31
-  },
-  {
-   "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
-   "name": "ouvidoria-setorial-aneel",
-   "snapshot_metadata_modified": "2026-10-29T10:04:08.148999",
-   "live_metadata_modified": "2026-10-30T10:07:25.602959",
-   "snapshot_num_resources": 19,
-   "live_num_resources": 19
+   "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
+   "name": "relacao-de-empreendimentos-de-geracao-distribuida",
+   "snapshot_metadata_modified": "2026-10-30T18:38:47.847337",
+   "live_metadata_modified": "2026-10-31T07:02:14.777248",
+   "snapshot_num_resources": 12,
+   "live_num_resources": 12
   },
   {
    "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
    "name": "sigec-sistema-de-gestao-de-creditos",
-   "snapshot_metadata_modified": "2026-10-30T05:11:57.826003",
-   "live_metadata_modified": "2026-10-30T05:49:26.109505",
+   "snapshot_metadata_modified": "2026-10-31T05:13:04.558312",
+   "live_metadata_modified": "2026-10-31T06:12:06.358792",
    "snapshot_num_resources": 5,
    "live_num_resources": 5
   },
   {
-   "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
-   "name": "tarifas-distribuidoras-energia-eletrica",
-   "snapshot_metadata_modified": "2026-10-29T10:22:05.647323",
-   "live_metadata_modified": "2026-10-30T10:13:06.079736",
-   "snapshot_num_resources": 4,
-   "live_num_resources": 4
+   "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "snapshot_metadata_modified": "2026-10-30T10:52:40.740848",
+   "live_metadata_modified": "2026-10-31T06:04:20.196677",
+   "snapshot_num_resources": 35,
+   "live_num_resources": 35
+  },
+  {
+   "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
+   "name": "tfsee",
+   "snapshot_metadata_modified": "2026-10-29T09:06:12.964392",
+   "live_metadata_modified": "2026-10-31T09:06:14.954489",
+   "snapshot_num_resources": 2,
+   "live_num_resources": 2
   }
  ],
  "errors": [],
- "sentence": "⏳ **Cross-check pending** — last verified 2026-10-30 10:19 UTC. 4 divergence(s) detected; next monitor run will reconcile (snapshot age 4.8h ≤ 7h tolerance).",
- "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-30 10:19 UTC. 4 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,8 h ≤ tolerância de 7 h)."
+ "sentence": "⏳ **Cross-check pending** — last verified 2026-10-31 09:51 UTC. 4 divergence(s) detected; next monitor run will reconcile (snapshot age 4.5h ≤ 7h tolerance).",
+ "sentence_pt": "⏳ **Verificação cruzada pendente** — última verificação em 2026-10-31 09:51 UTC. 4 divergência(s) detectada(s); a próxima execução do monitoramento vai reconciliá-las (snapshot com 4,5 h ≤ tolerância de 7 h)."
 }
