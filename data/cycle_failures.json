@@ -46,5 +46,21 @@
   "detail": "SSLError (dadosabertos.aneel.gov.br)",
   "step": "Run monitoring cycle",
   "source": "cycle"
+ },
+ {
+  "run_id": 41278400292,
+  "when": "2026-11-01T05:49:28+00:00",
+  "category": "unknown",
+  "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+  "source": "actions"
+ },
+ {
+  "run_id": 41309940056,
+  "when": "2026-11-01T13:10:17+00:00",
+  "category": "network",
+  "detail": "SSLError (dadosabertos.aneel.gov.br)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]

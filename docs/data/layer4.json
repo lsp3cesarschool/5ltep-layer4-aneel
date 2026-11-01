@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T05:51:16.305177+00:00",
+ "generated_at": "2026-11-01T13:10:40.019749+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -49,6 +49,22 @@
   "max_gap_hours_30d": 18.8,
   "distinct_snapshots": 70,
   "failures": [
+   {
+    "run_id": 41309940056,
+    "when": "2026-11-01T13:10:17+00:00",
+    "category": "network",
+    "detail": "SSLError (dadosabertos.aneel.gov.br)",
+    "step": "Run monitoring cycle",
+    "source": "cycle"
+   },
+   {
+    "run_id": 41278400292,
+    "when": "2026-11-01T05:49:28+00:00",
+    "category": "unknown",
+    "detail": "step: Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "step": "Alert on CRITICAL schema change (SCHEMA_DRIFT / RETRO_ALTER)",
+    "source": "actions"
+   },
    {
     "run_id": 40087330425,
     "when": "2026-10-24T10:48:02+00:00",
@@ -99,8 +115,8 @@
    }
   ],
   "failures_by_category": {
-   "network": 4,
-   "unknown": 2
+   "network": 5,
+   "unknown": 3
   },
   "unread_last_cycle": []
  },
