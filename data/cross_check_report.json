@@ -1,11 +1,11 @@
 {
-  "status": "PENDING",
-  "checked_at": "2026-11-02T11:33:28.542258+00:00",
-  "duration_seconds": 194.49,
+  "status": "STALE",
+  "checked_at": "2026-11-03T11:09:56.310568+00:00",
+  "duration_seconds": 35.47,
   "portal_url": "https://dadosabertos.aneel.gov.br",
-  "snapshot_run_id": "20261102T055004Z",
-  "snapshot_file": "snapshot_20261102T055004Z.json",
-  "snapshot_age_hours": 5.72,
+  "snapshot_run_id": "20261102T153444Z",
+  "snapshot_file": "snapshot_20261102T153444Z.json",
+  "snapshot_age_hours": 19.59,
   "monitor_tolerance_hours": 7,
   "coverage_ratio": 1.0,
   "min_coverage_ratio": 0.9,
@@ -18,84 +18,60 @@
   },
   "modified": [
     {
-      "id": "4d690c9d-8158-4b04-ae44-7d3de8616271",
-      "name": "auto-de-infracao",
-      "snapshot_metadata_modified": "2026-10-26T08:03:00.969301",
-      "live_metadata_modified": "2026-11-02T08:03:11.146119",
-      "snapshot_num_resources": 3,
-      "live_num_resources": 3
-    },
-    {
-      "id": "7f43a020-6dc5-44b8-80b4-d97eaa94436c",
-      "name": "bandeiras-tarifarias",
-      "snapshot_metadata_modified": "2026-11-01T05:07:48.597651",
-      "live_metadata_modified": "2026-11-02T08:05:07.663058",
-      "snapshot_num_resources": 6,
-      "live_num_resources": 6
-    },
-    {
-      "id": "613e6b74-1a4b-4c48-a231-096815e96bd5",
-      "name": "componentes-tarifarias",
-      "snapshot_metadata_modified": "2026-10-30T14:28:44.189529",
-      "live_metadata_modified": "2026-11-02T08:46:04.002235",
-      "snapshot_num_resources": 31,
-      "live_num_resources": 31
-    },
-    {
       "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
       "name": "ouvidoria-setorial-aneel",
-      "snapshot_metadata_modified": "2026-11-01T10:18:21.156228",
-      "live_metadata_modified": "2026-11-02T10:08:18.856732",
+      "snapshot_metadata_modified": "2026-11-02T10:08:18.856732",
+      "live_metadata_modified": "2026-11-03T10:04:00.152906",
       "snapshot_num_resources": 19,
       "live_num_resources": 19
     },
     {
+      "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
+      "name": "relacao-de-empreendimentos-de-geracao-distribuida",
+      "snapshot_metadata_modified": "2026-11-01T06:04:26.777984",
+      "live_metadata_modified": "2026-11-03T06:01:47.312055",
+      "snapshot_num_resources": 12,
+      "live_num_resources": 12
+    },
+    {
       "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
       "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "snapshot_metadata_modified": "2026-11-01T10:44:35.750216",
-      "live_metadata_modified": "2026-11-02T10:48:58.517093",
+      "snapshot_metadata_modified": "2026-11-02T10:48:58.517093",
+      "live_metadata_modified": "2026-11-03T10:49:54.598092",
+      "snapshot_num_resources": 5,
+      "live_num_resources": 5
+    },
+    {
+      "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
+      "name": "sigec-sistema-de-gestao-de-creditos",
+      "snapshot_metadata_modified": "2026-11-02T05:48:32.742804",
+      "live_metadata_modified": "2026-11-03T06:45:27.530463",
       "snapshot_num_resources": 5,
       "live_num_resources": 5
     },
     {
       "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
       "name": "sistema-de-gestao-da-transmissao-siget",
-      "snapshot_metadata_modified": "2026-11-02T05:50:24.856761",
-      "live_metadata_modified": "2026-11-02T10:56:01.597021",
+      "snapshot_metadata_modified": "2026-11-02T10:56:01.597021",
+      "live_metadata_modified": "2026-11-03T10:56:57.773493",
       "snapshot_num_resources": 35,
       "live_num_resources": 35
     },
     {
       "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
       "name": "tarifas-distribuidoras-energia-eletrica",
-      "snapshot_metadata_modified": "2026-10-31T10:11:13.557022",
-      "live_metadata_modified": "2026-11-02T11:13:59.095385",
+      "snapshot_metadata_modified": "2026-11-02T11:13:59.095385",
+      "live_metadata_modified": "2026-11-03T11:09:51.062323",
       "snapshot_num_resources": 4,
       "live_num_resources": 4
     },
     {
-      "id": "e8d03b9e-3717-46dc-b0c4-c33d3bf80b10",
-      "name": "termo-de-intimacao-ti",
-      "snapshot_metadata_modified": "2026-10-26T08:02:25.240466",
-      "live_metadata_modified": "2026-11-02T08:02:58.623128",
+      "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
+      "name": "tfsee",
+      "snapshot_metadata_modified": "2026-10-31T09:06:14.954489",
+      "live_metadata_modified": "2026-11-03T09:08:20.195295",
       "snapshot_num_resources": 2,
       "live_num_resources": 2
-    },
-    {
-      "id": "f72dd455-ef2b-4922-862f-e9e59f999ded",
-      "name": "termo-de-notificacao",
-      "snapshot_metadata_modified": "2026-10-26T08:02:16.964633",
-      "live_metadata_modified": "2026-11-02T08:02:56.564339",
-      "snapshot_num_resources": 3,
-      "live_num_resources": 3
-    },
-    {
-      "id": "34ea9837-61d5-4585-9968-0a3862eff8f8",
-      "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
-      "snapshot_metadata_modified": "2026-10-26T08:02:57.821147",
-      "live_metadata_modified": "2026-11-02T08:03:08.663569",
-      "snapshot_num_resources": 10,
-      "live_num_resources": 10
     }
   ],
   "errors": []
