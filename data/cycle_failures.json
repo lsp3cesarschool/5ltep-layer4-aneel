@@ -62,5 +62,13 @@
   "detail": "SSLError (dadosabertos.aneel.gov.br)",
   "step": "Run monitoring cycle",
   "source": "cycle"
+ },
+ {
+  "run_id": 41556009597,
+  "when": "2026-11-03T00:53:29+00:00",
+  "category": "network",
+  "detail": "SSLError (dadosabertos.aneel.gov.br)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]
