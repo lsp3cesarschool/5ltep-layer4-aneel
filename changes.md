@@ -7,9 +7,9 @@ first monitoring cycle that saw the change).
 
 - **Monitored since:** 2026-10-02
 - **Datasets in the latest snapshot:** 72
-- **Changes recorded as PROV events:** 305 (7 critical)
+- **Changes recorded as PROV events:** 307 (7 critical)
 - **New datasets:** 0
-- **Last change detected:** 2026-11-03 23:13 UTC
+- **Last change detected:** 2026-11-04 06:01 UTC
 
 Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 (resources added, removed, renamed or re-formatted; critical), `RETRO_ALTER`
@@ -20,13 +20,39 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 
 | Month | PROV events | Critical | New datasets |
 |---|---:|---:|---:|
-| 2026-11 | 47 | 1 | 0 |
+| 2026-11 | 49 | 1 | 0 |
 | 2026-10 | 258 | 6 | 0 |
 
 ## Latest changes
 
 | Detected (UTC) | Dataset | Type | What changed | Provenance |
 |---|---|---|---|---|
+| 2026-11-04 06:01 | [Tarifas de aplicação das distribuidoras de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Sistema de Gestão da Transmissão - SIGET](https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [SIGEC - Sistema de Gestão de Créditos](https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos) | `CONTENT_MOD` | File date updated | [log](provenance_logs/da3d8da5-bdc0-471a-b57e-09e49f557c9a.jsonld) |
+| 2026-11-04 06:01 | [SIGA - Sistema de Informações de Geração da ANEEL](https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [SAMP - Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica](https://dadosabertos.aneel.gov.br/dataset/samp) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Reuniões Públicas da Diretoria](https://dadosabertos.aneel.gov.br/dataset/reunioes-publicas-da-diretoria) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Relação de empreendimentos de Mini e Micro Geração Distribuída](https://dadosabertos.aneel.gov.br/dataset/relacao-de-empreendimentos-de-geracao-distribuida) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/5e0fafd2-21b9-4d5b-b622-40438d40aba2.jsonld) |
+| 2026-11-04 06:01 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Quantidade de usinas termelétricas por tipo](https://dadosabertos.aneel.gov.br/dataset/usinas-termeletricas-por-tipo) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Quantidade de empreendimentos de geração de energia em operação](https://dadosabertos.aneel.gov.br/dataset/empreendimentos-em-operacao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Qualidade do Atendimento Comercial](https://dadosabertos.aneel.gov.br/dataset/qualidade-do-atendimento-comercial) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Projetos de P&D em Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/projetos-de-p-d-em-energia-eletrica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Projetos de Eficiência Energética](https://dadosabertos.aneel.gov.br/dataset/projetos-de-eficiencia-energetica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Pautas e Atas das Reuniões Publicas da Diretoria](https://dadosabertos.aneel.gov.br/dataset/pautas-e-atas-das-reunioes-publicas-da-diretoria) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Interrupções de Energia Elétrica nas Redes de Distribuição](https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Indicadores Coletivos de Continuidade (DEC e FEC)](https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Fiscalização da Geração (descontinuado)](https://dadosabertos.aneel.gov.br/dataset/geracao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [FSB - Fiscalização de Segurança de Barragens](https://dadosabertos.aneel.gov.br/dataset/fsb-fiscalizacao-de-seguranca-de-barragens) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Empreendimento hidrelétrico em estudo](https://dadosabertos.aneel.gov.br/dataset/empreendimento-hidreletrico-em-estudo) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Componentes Tarifárias](https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Base de Dados Geográfica da Distribuidora - BDGD](https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Bandeiras Tarifárias](https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [BPR - Banco de Preços de Referência (linha de transmissão)](https://dadosabertos.aneel.gov.br/dataset/bpr-banco-de-precos-de-referencia-linha-de-transmissao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Atendimento às Ocorrências Emergenciais](https://dadosabertos.aneel.gov.br/dataset/atendimento-ocorrencias-emergenciais) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Agentes de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/agentes-de-geracao-de-energia-eletrica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
+| 2026-11-04 06:01 | [Acréscimo anual da potência instalada](https://dadosabertos.aneel.gov.br/dataset/acrescimo-da-potencia-instalada) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
 | 2026-11-03 23:13 | [Índice ANEEL de Satisfação do Consumidor (IASC)](https://dadosabertos.aneel.gov.br/dataset/indice-aneel-de-satisfacao-do-consumidor-iasc) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
 | 2026-11-03 23:13 | [Termo de Notificação](https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
 | 2026-11-03 23:13 | [Termo de Intimação (TI)](https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
@@ -201,31 +227,5 @@ Types: `CONTENT_MOD` (content changed with a new timestamp), `SCHEMA_DRIFT`
 | 2026-11-01 05:49 | [SIGA - Sistema de Informações de Geração da ANEEL](https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/6d90b77c-c5f5-4d81-bdec-7bc619494bb9.jsonld) |
 | 2026-11-01 05:49 | [SAMP - Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica](https://dadosabertos.aneel.gov.br/dataset/samp) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
 | 2026-11-01 05:49 | [Reuniões Públicas da Diretoria](https://dadosabertos.aneel.gov.br/dataset/reunioes-publicas-da-diretoria) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1.jsonld) |
-| 2026-11-01 05:49 | [Resultado de leilões de geração e transmissão de energia elétrica](https://dadosabertos.aneel.gov.br/dataset/resultado-de-leiloes) | `CONTENT_MOD` | File date updated | [log](provenance_logs/593537c6-9e0e-4ed9-817a-2c5d5de05147.jsonld) |
-| 2026-11-01 05:49 | [Relação de empreendimentos de Mini e Micro Geração Distribuída](https://dadosabertos.aneel.gov.br/dataset/relacao-de-empreendimentos-de-geracao-distribuida) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Quantidade de usinas termelétricas por tipo](https://dadosabertos.aneel.gov.br/dataset/usinas-termeletricas-por-tipo) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Projetos de P&D em Energia Elétrica](https://dadosabertos.aneel.gov.br/dataset/projetos-de-p-d-em-energia-eletrica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/78c2db95-fb29-4851-98f9-4d55cb5bf646.jsonld) |
-| 2026-11-01 05:49 | [Projetos de Eficiência Energética](https://dadosabertos.aneel.gov.br/dataset/projetos-de-eficiencia-energetica) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f9336ee6-7562-4c92-880a-d7217df6cc94.jsonld) |
-| 2026-11-01 05:49 | [Pautas e Atas das Reuniões Publicas da Diretoria](https://dadosabertos.aneel.gov.br/dataset/pautas-e-atas-das-reunioes-publicas-da-diretoria) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Interrupções de Energia Elétrica nas Redes de Distribuição](https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Indicadores de Conformidade do Nível de Tensão em Regime Permanente](https://dadosabertos.aneel.gov.br/dataset/indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Indicadores Coletivos de Continuidade (DEC e FEC)](https://dadosabertos.aneel.gov.br/dataset/indicadores-coletivos-de-continuidade-dec-e-fec) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [IndQual Município](https://dadosabertos.aneel.gov.br/dataset/indqual-municipio) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [INDGER - Indicadores Gerenciais da Distribuição](https://dadosabertos.aneel.gov.br/dataset/indger-indicadores-gerenciais-da-distribuicao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [GCEM - Gestão de Informações de Campos Eletromagnéticos](https://dadosabertos.aneel.gov.br/dataset/gcem-gestao-de-informacoes-de-campos-eletromagneticos) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/f8258ef8-1b0d-4dc2-a5db-f3de743d6608.jsonld) |
-| 2026-11-01 05:49 | [FSB - Fiscalização de Segurança de Barragens](https://dadosabertos.aneel.gov.br/dataset/fsb-fiscalizacao-de-seguranca-de-barragens) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/fa46f760-d963-495e-89c7-6339a4f1ed5c.jsonld) |
-| 2026-11-01 05:49 | [Empreendimento hidrelétrico em estudo](https://dadosabertos.aneel.gov.br/dataset/empreendimento-hidreletrico-em-estudo) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/fb81a809-e0eb-4acb-b589-3130380cd9f4.jsonld) |
-| 2026-11-01 05:49 | [Conta Desenvolvimento Energético (CDE) - Custeio dos Benefícios Tarifários](https://dadosabertos.aneel.gov.br/dataset/conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios) | `CONTENT_MOD` | File date updated | [log](provenance_logs/b3259e81-f581-4595-a9ca-708d911af085.jsonld) |
-| 2026-11-01 05:49 | [Capacidade Instalada por Unidade da Federação](https://dadosabertos.aneel.gov.br/dataset/capacidade-instalada-por-unidade-da-federacao) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [CTR - Curva de Carga](https://dadosabertos.aneel.gov.br/dataset/ctr-curva-de-carga) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/2594ebad-1306-49d1-9f30-ded144acca87.jsonld) |
-| 2026-11-01 05:49 | [CFURH - Compensação Financeira pela Utilização de Recursos Hídricos](https://dadosabertos.aneel.gov.br/dataset/cfurh) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Base de Dados Geográfica da Distribuidora - BDGD](https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd) | `NOT_FINGERPRINTED` | Metadata changed outside the fingerprint |  |
-| 2026-11-01 05:49 | [Bandeiras Tarifárias](https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias) | `CONTENT_MOD` | File date updated | [log](provenance_logs/7f43a020-6dc5-44b8-80b4-d97eaa94436c.jsonld) |
-| 2026-11-01 05:49 | [BPR - Banco de Preços de Referência (subestação)](https://dadosabertos.aneel.gov.br/dataset/bpr-banco-de-precos-de-referencia-subestacao) | `CONTENT_MOD` | File date updated | [log](provenance_logs/7981fa38-867f-4447-8bf0-775939705a6c.jsonld) |
-| 2026-11-01 05:49 | [BPR - Banco de Preços de Referência (linha de transmissão)](https://dadosabertos.aneel.gov.br/dataset/bpr-banco-de-precos-de-referencia-linha-de-transmissao) | `CONTENT_MOD` | File date updated | [log](provenance_logs/00e8b187-87a7-4100-8ee8-4ac200f9ee45.jsonld) |
-| 2026-11-01 05:49 | [Atos de Outorgas de Geração](https://dadosabertos.aneel.gov.br/dataset/atos-de-outorgas-de-geracao) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/2d8a4c72-ed48-4afc-b14f-cc8f5c499a68.jsonld) |
-| 2026-11-01 05:49 | [Atendimento a pedidos de conexões MMGD - Mini e Microgeração distribuída - pós Lei 14300](https://dadosabertos.aneel.gov.br/dataset/atendimento-mmgd-mini-e-micro-geracao-distribuida) | `CONTENT_MOD` | File size updated; file date updated; license title changed | [log](provenance_logs/f0773920-9847-46cb-9bc0-dde68761c573.jsonld) |
-| 2026-11-01 05:49 | [Agentes do Setor Elétrico](https://dadosabertos.aneel.gov.br/dataset/agentes-do-setor-eletrico) | `CONTENT_MOD` | File size updated; file date updated | [log](provenance_logs/71d1007e-7e14-4875-8758-7e3a0d1118df.jsonld) |
 
-_Showing the latest 200 of 799 changes._
+_Showing the latest 200 of 825 changes._
