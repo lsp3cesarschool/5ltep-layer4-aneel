@@ -1,11 +1,11 @@
 {
   "status": "PENDING",
-  "checked_at": "2026-11-05T11:18:45.538977+00:00",
-  "duration_seconds": 61.76,
+  "checked_at": "2026-11-06T11:15:52.084064+00:00",
+  "duration_seconds": 37.22,
   "portal_url": "https://dadosabertos.aneel.gov.br",
-  "snapshot_run_id": "20261105T062928Z",
-  "snapshot_file": "snapshot_20261105T062928Z.json",
-  "snapshot_age_hours": 4.82,
+  "snapshot_run_id": "20261106T062358Z",
+  "snapshot_file": "snapshot_20261106T062358Z.json",
+  "snapshot_age_hours": 4.87,
   "monitor_tolerance_hours": 7,
   "coverage_ratio": 1.0,
   "min_coverage_ratio": 0.9,
@@ -18,74 +18,50 @@
   },
   "modified": [
     {
-      "id": "855a73ed-f4e0-4e88-8467-c330ba0223d3",
-      "name": "cfurh",
-      "snapshot_metadata_modified": "2026-10-28T15:31:50.829118",
-      "live_metadata_modified": "2026-11-05T10:26:45.403143",
-      "snapshot_num_resources": 20,
-      "live_num_resources": 20
-    },
-    {
-      "id": "7cacb2c4-b165-4591-a793-9ed20d1f167d",
-      "name": "indger-indicadores-gerenciais-da-distribuicao",
-      "snapshot_metadata_modified": "2026-11-05T05:28:07.539635",
-      "live_metadata_modified": "2026-11-05T09:41:18.089768",
-      "snapshot_num_resources": 13,
-      "live_num_resources": 13
-    },
-    {
-      "id": "d5f0712e-62f6-4736-8dff-9991f10758a7",
-      "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
-      "snapshot_metadata_modified": "2026-10-23T13:41:13.463993",
-      "live_metadata_modified": "2026-11-05T10:30:04.166458",
-      "snapshot_num_resources": 17,
-      "live_num_resources": 17
-    },
-    {
-      "id": "df624eb6-f1ed-46ed-bf84-bf641f97b4cb",
-      "name": "indicadores-de-qualidade-do-atendimento-telefonico",
-      "snapshot_metadata_modified": "2026-10-05T10:00:40.019826",
-      "live_metadata_modified": "2026-11-05T10:03:00.307663",
-      "snapshot_num_resources": 2,
-      "live_num_resources": 2
-    },
-    {
       "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
       "name": "ouvidoria-setorial-aneel",
-      "snapshot_metadata_modified": "2026-11-04T10:06:56.209909",
-      "live_metadata_modified": "2026-11-05T10:09:41.363773",
+      "snapshot_metadata_modified": "2026-11-05T10:09:41.363773",
+      "live_metadata_modified": "2026-11-06T10:07:55.122047",
       "snapshot_num_resources": 19,
       "live_num_resources": 19
     },
     {
+      "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
+      "name": "relacao-de-empreendimentos-de-geracao-distribuida",
+      "snapshot_metadata_modified": "2026-11-05T14:11:10.220528",
+      "live_metadata_modified": "2026-11-06T06:36:51.050862",
+      "snapshot_num_resources": 12,
+      "live_num_resources": 12
+    },
+    {
       "id": "6d90b77c-c5f5-4d81-bdec-7bc619494bb9",
       "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "snapshot_metadata_modified": "2026-11-04T10:45:57.327026",
-      "live_metadata_modified": "2026-11-05T10:49:48.232194",
+      "snapshot_metadata_modified": "2026-11-05T10:49:48.232194",
+      "live_metadata_modified": "2026-11-06T11:02:53.198947",
       "snapshot_num_resources": 5,
       "live_num_resources": 5
     },
     {
       "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
       "name": "sistema-de-gestao-da-transmissao-siget",
-      "snapshot_metadata_modified": "2026-11-04T10:59:03.667288",
-      "live_metadata_modified": "2026-11-05T10:58:35.797586",
+      "snapshot_metadata_modified": "2026-11-05T10:58:35.797586",
+      "live_metadata_modified": "2026-11-06T11:02:47.259762",
       "snapshot_num_resources": 35,
       "live_num_resources": 35
     },
     {
       "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
       "name": "tarifas-distribuidoras-energia-eletrica",
-      "snapshot_metadata_modified": "2026-11-04T10:28:56.252058",
-      "live_metadata_modified": "2026-11-05T10:16:31.319373",
+      "snapshot_metadata_modified": "2026-11-05T10:16:31.319373",
+      "live_metadata_modified": "2026-11-06T10:30:02.342488",
       "snapshot_num_resources": 4,
       "live_num_resources": 4
     },
     {
       "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
       "name": "tfsee",
-      "snapshot_metadata_modified": "2026-11-03T09:08:20.195295",
-      "live_metadata_modified": "2026-11-05T09:09:18.731354",
+      "snapshot_metadata_modified": "2026-11-05T09:09:18.731354",
+      "live_metadata_modified": "2026-11-06T09:17:13.483017",
       "snapshot_num_resources": 2,
       "live_num_resources": 2
     }
