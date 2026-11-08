@@ -1,11 +1,11 @@
 {
   "status": "PENDING",
-  "checked_at": "2026-11-07T10:31:23.089526+00:00",
-  "duration_seconds": 35.0,
+  "checked_at": "2026-11-08T10:39:02.601890+00:00",
+  "duration_seconds": 42.65,
   "portal_url": "https://dadosabertos.aneel.gov.br",
-  "snapshot_run_id": "20261107T054742Z",
-  "snapshot_file": "snapshot_20261107T054742Z.json",
-  "snapshot_age_hours": 4.73,
+  "snapshot_run_id": "20261108T055012Z",
+  "snapshot_file": "snapshot_20261108T055012Z.json",
+  "snapshot_age_hours": 4.81,
   "monitor_tolerance_hours": 7,
   "coverage_ratio": 1.0,
   "min_coverage_ratio": 0.9,
@@ -20,48 +20,48 @@
     {
       "id": "1206d323-ad8c-46c6-bc2d-9b731e42ee26",
       "name": "ouvidoria-setorial-aneel",
-      "snapshot_metadata_modified": "2026-11-06T10:07:55.122047",
-      "live_metadata_modified": "2026-11-07T10:08:57.548950",
+      "snapshot_metadata_modified": "2026-11-07T10:08:57.548950",
+      "live_metadata_modified": "2026-11-08T10:06:54.151583",
       "snapshot_num_resources": 19,
       "live_num_resources": 19
     },
     {
       "id": "5e0fafd2-21b9-4d5b-b622-40438d40aba2",
       "name": "relacao-de-empreendimentos-de-geracao-distribuida",
-      "snapshot_metadata_modified": "2026-11-07T05:44:05.957895",
-      "live_metadata_modified": "2026-11-07T05:54:39.127498",
+      "snapshot_metadata_modified": "2026-11-07T05:54:39.127498",
+      "live_metadata_modified": "2026-11-08T09:53:40.754137",
       "snapshot_num_resources": 12,
       "live_num_resources": 12
     },
     {
       "id": "da3d8da5-bdc0-471a-b57e-09e49f557c9a",
       "name": "sigec-sistema-de-gestao-de-creditos",
-      "snapshot_metadata_modified": "2026-11-07T05:21:46.669261",
-      "live_metadata_modified": "2026-11-07T07:55:46.127213",
+      "snapshot_metadata_modified": "2026-11-08T05:18:47.967589",
+      "live_metadata_modified": "2026-11-08T09:32:46.640836",
       "snapshot_num_resources": 5,
       "live_num_resources": 5
     },
     {
       "id": "beefe870-7452-4830-a7b0-6611e3d5eff6",
       "name": "sistema-de-gestao-da-transmissao-siget",
-      "snapshot_metadata_modified": "2026-11-06T11:02:47.259762",
-      "live_metadata_modified": "2026-11-07T06:17:20.355314",
+      "snapshot_metadata_modified": "2026-11-07T11:03:14.063056",
+      "live_metadata_modified": "2026-11-08T06:25:11.280069",
       "snapshot_num_resources": 35,
       "live_num_resources": 35
     },
     {
       "id": "5a583f3e-1646-4f67-bf0f-69db4203e89e",
       "name": "tarifas-distribuidoras-energia-eletrica",
-      "snapshot_metadata_modified": "2026-11-06T10:30:02.342488",
-      "live_metadata_modified": "2026-11-07T10:30:59.845713",
+      "snapshot_metadata_modified": "2026-11-07T10:30:59.845713",
+      "live_metadata_modified": "2026-11-08T10:29:06.306731",
       "snapshot_num_resources": 4,
       "live_num_resources": 4
     },
     {
       "id": "738e425b-5554-4fe4-8a8a-2d163308e9ff",
       "name": "tfsee",
-      "snapshot_metadata_modified": "2026-11-06T09:17:13.483017",
-      "live_metadata_modified": "2026-11-07T09:07:14.665320",
+      "snapshot_metadata_modified": "2026-11-07T09:07:14.665320",
+      "live_metadata_modified": "2026-11-08T09:48:13.586661",
       "snapshot_num_resources": 2,
       "live_num_resources": 2
     }
