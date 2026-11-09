@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/tests.yml/badge.svg)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/tests.yml) [![Layer 4](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus.pt.json)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/monitor.yml) [![Cross-check](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer4-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus-cross-check.pt.json)](https://github.com/lsp3cesarschool/5ltep-layer4-aneel/actions/workflows/cross_check.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-[English](README.md) · **Português**
+[← Plataforma CUPIM](https://5ltep-cupim.github.io/?lang=pt) · [English](README.md) · **Português**
 
 **Camada 4 do 5L-TEP (observabilidade e proveniência) aplicada ao portal de dados abertos da ANEEL, agência reguladora do setor elétrico:
 outra instância do [5ltep-layer4](https://github.com/lsp3cesarschool/5ltep-layer4), montada pelo autor como aplicação do mesmo sistema em outro contexto.**
