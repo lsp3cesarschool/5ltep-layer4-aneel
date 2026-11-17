@@ -174,5 +174,13 @@
   "detail": "ConnectTimeout (dadosabertos.aneel.gov.br)",
   "step": "Run monitoring cycle",
   "source": "cycle"
+ },
+ {
+  "run_id": 44172756148,
+  "when": "2026-11-17T20:46:13+00:00",
+  "category": "network",
+  "detail": "ConnectTimeout (dadosabertos.aneel.gov.br)",
+  "step": "Run monitoring cycle",
+  "source": "cycle"
  }
 ]
