@@ -1,11 +1,11 @@
 {
  "status": "ERROR",
- "checked_at": "2026-11-19T11:57:47.582338+00:00",
- "duration_seconds": 34.8,
+ "checked_at": "2026-11-20T11:58:51.326949+00:00",
+ "duration_seconds": 34.94,
  "portal_url": "https://dadosabertos.aneel.gov.br",
  "snapshot_run_id": "20261112T150205Z",
  "snapshot_file": "snapshot_20261112T150205Z.json",
- "snapshot_age_hours": 164.93,
+ "snapshot_age_hours": 188.95,
  "monitor_tolerance_hours": 7,
  "coverage_ratio": 0.0,
  "min_coverage_ratio": 0.9,
@@ -20,9 +20,9 @@
  "errors": [
   {
    "name": "package_list",
-   "error": "HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dadosabertos.aneel.gov.br', port=443) at 0x7033f827f650>, 'Connection to dadosabertos.aneel.gov.br timed out. (connect timeout=10)'))"
+   "error": "HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /api/3/action/package_list (Caused by ConnectTimeoutError(<HTTPSConnection(host='dadosabertos.aneel.gov.br', port=443) at 0x7f291909b510>, 'Connection to dadosabertos.aneel.gov.br timed out. (connect timeout=10)'))"
   }
  ],
- "sentence": "❌ **Cross-check error** — last attempt 2026-11-19 11:57 UTC; coverage 0% below 90% threshold (1 fetch failure(s)). See `data/cross_check_report.json`.",
- "sentence_pt": "❌ **Erro na verificação cruzada** — última tentativa em 2026-11-19 11:57 UTC; cobertura de 0%, abaixo do limite de 90% (1 falha(s) de consulta). Veja `data/cross_check_report.json`."
+ "sentence": "❌ **Cross-check error** — last attempt 2026-11-20 11:58 UTC; coverage 0% below 90% threshold (1 fetch failure(s)). See `data/cross_check_report.json`.",
+ "sentence_pt": "❌ **Erro na verificação cruzada** — última tentativa em 2026-11-20 11:58 UTC; cobertura de 0%, abaixo do limite de 90% (1 falha(s) de consulta). Veja `data/cross_check_report.json`."
 }
