@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-22T19:28:15.942155+00:00",
+ "generated_at": "2026-11-23T07:22:20.945796+00:00",
  "toolkit_version": "1.1.0",
  "repository": "lsp3cesarschool/5ltep-layer4-aneel",
  "portal": {
@@ -60,6 +60,14 @@
   "max_gap_hours_30d": 31.6,
   "distinct_snapshots": 95,
   "failures": [
+   {
+    "run_id": 45130498267,
+    "when": "2026-11-23T07:21:40+00:00",
+    "category": "network",
+    "detail": "ConnectTimeout (dadosabertos.aneel.gov.br)",
+    "step": "Run monitoring cycle",
+    "source": "cycle"
+   },
    {
     "run_id": 45060853073,
     "when": "2026-11-22T19:27:36+00:00",
@@ -326,7 +334,7 @@
    }
   ],
   "failures_by_category": {
-   "network": 30,
+   "network": 31,
    "unknown": 3
   },
   "unread_last_cycle": []
